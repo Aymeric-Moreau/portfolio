@@ -1,0 +1,37 @@
+/*---------------- compétence ----------*/
+.competence {
+    background: var(--background-element);
+}
+.competence .card{
+
+
+    /*    border-radius: 15px;*/
+
+
+}
+
+.competence .card-competence {
+  /* height: 100%;
+  border-radius: 40px;
+  padding: 1.5rem; */
+
+      width: 25rem;
+    margin: 10px;
+    margin-right:  10px;
+    /*    background: var(--background-element);
+        background: var(--background);
+        box-shadow: 5px 5px 10px #E3EAEF, -5px -5px 10px #FAFDFF;  white : #FAFDFF blue plus sombre : #E3EAEF*/
+    border-radius: 50px;
+    background: linear-gradient(145deg, var(--neo-backgrounf-1), var(--neo-backgrounf-2));
+    box-shadow:  20px 20px 60px var(--neo-shadow-1),
+        -20px -20px 60px var(--neo-shadow-2);
+}
+.competence .card-competence .card-subtitle{
+    color: var(--text);
+    text-decoration: underline;
+}
+
+.competence img{
+    width: 80px;
+    height: 80px;
+}

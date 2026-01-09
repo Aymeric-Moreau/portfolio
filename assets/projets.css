@@ -1,0 +1,251 @@
+/*------ Projet ------*/
+ .projet {
+    background-color: var(--background);
+    
+    border-bottom: 5vh solid var(--background) ;
+}
+
+
+/* .projet .card {
+    
+    border-radius: 20px;
+    background: linear-gradient(145deg, var(--neoe-backgrounf-1), var(--neoe-backgrounf-2));
+    box-shadow:  20px 20px 60px var(--neoe-shadow-1),
+        -20px -20px 60px var(--neoe-shadow-2);
+    position: relative;
+    padding: 1rem;
+    border: 2px solid var(--background-element);
+    transition: 0.5s ease-out;
+    overflow: visible;
+    cursor: pointer;
+    color: var(--text);
+
+} */
+
+.projet .card-projet {
+  border-radius: 20px;
+  background: linear-gradient(
+    145deg,
+    var(--neoe-backgrounf-1),
+    var(--neoe-backgrounf-2)
+  );
+  box-shadow: 20px 20px 60px var(--neoe-shadow-1),
+              -20px -20px 60px var(--neoe-shadow-2);
+  position: relative;
+  padding: 1rem;
+  border: 2px solid var(--background-element);
+}
+
+.projet .card-details {
+    color: var(--text);
+    height: 100%;
+    gap: .5em;
+    display: grid;
+    place-content: center;
+}
+
+.projet .card-button {
+    transform: translate(-50%, 125%);
+    width: 60%;
+    border-radius: 1rem;
+    border: none;
+    background-color: var(--background-btn);
+    color: #fff;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.3s ease-out;
+}
+.projet .card-button:hover{
+    background-color: var(--background-btn-hover);
+}
+.projet .text-body {
+  color: var(--text) !important;
+  display: flex;
+  align-items: center;      /* alignement vertical */
+  justify-content: center;  /* alignement horizontal */
+  gap: 0.5rem;
+}
+
+/* .text-body {
+  
+} */
+
+.projet .text-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: var(--title);
+}
+
+
+.projet .card:hover {
+    border-color: #008bf8;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+}
+
+.projet .card:hover .card-button {
+    transform: translate(-50%, 50%);
+    opacity: 1;
+}
+
+.margin{
+    margin-top: 10vh; 
+    margin-bottom: 10vh; 
+}
+
+
+.modal {
+    
+    border: none;
+}
+
+.modal-header {
+    background-color: var(--background);
+}
+
+.modal-title {
+    color: var(--title);
+}
+
+.modal-body {
+    color: var(--text);
+    background-color: var(--background);
+    text-justify: auto;
+}
+
+.modal-footer {
+    background-color: var(--background);
+} 
+
+
+
+
+
+
+
+/*Bouton projet */
+.projet .modal .modal-body button {
+    padding: 8.5px 20px;
+    border: 0;
+    border-radius: 100px;
+    background-color: var(--background-btn);
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.projet .modal .modal-body button:hover {
+    background-color: var(--background-btn-hover);
+    box-shadow: 0 0 20px #6fc5ff50;
+    transform: scale(1.1);
+}
+
+.projet .modal .modal-body button:active {
+    background-color: var(--background-btn-hover);
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+}
+
+.projet .modal .modal-body p img{
+    height: 40px;
+    width: 40px;
+}
+.projet .modal .modal-body .resultat img{
+    max-width: 90ch
+}
+
+/*Bouton projet long */
+.projet #btnGlpi a button {
+    padding: 8.5px 20px;
+    border: 0;
+    border-radius: 100px;
+    background-color: var(--background-btn);
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    width: 100vh;
+    margin-top: 55px;
+}
+.projet .tech-logo {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+
+
+.projet #btnGlpi a button:hover {
+    background-color: var(--background-btn-hover);
+    box-shadow: 0 0 20px #6fc5ff50;
+    transform: scale(1.1);
+}
+
+.projet #btnGlpi a button:active {
+    background-color: var(--background-btn-hover);
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+}
+
+.projet .card-body .table thead .th{
+    font-size: 10% !important;
+}
+.caseTache{
+    width: 150px;
+    height: 40px;
+}
+
+
+
+
+/* ===== MASONRY LAYOUT ===== */
+
+.projet-masonry {
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+}
+
+[data-masonry] {
+    display: block;
+}
+
+
+
+/* .masonry-item {
+    
+} */
+.masonry-item {
+    width: 100%;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem; /* équivalent mb-4 */
+}
+
+/* Desktop: 3 colonnes */
+@media (min-width: 992px) {
+    .masonry-item {
+        width: 33.3333%;
+    }
+}
+
+/* Tablet: 2 colonnes */
+@media (min-width: 768px) and (max-width: 991px) {
+    .masonry-item {
+        width: 50%;
+    }
+}
+
+/* Mobile: 1 colonne */
+@media (max-width: 767px) {
+    .masonry-item {
+        width: 100%;
+    }
+}

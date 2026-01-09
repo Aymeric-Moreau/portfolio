@@ -1,0 +1,388 @@
+@import url('projets.css');
+@import url('stage.css');
+@import url('reseau.css');
+@import url('parcours.css');
+@import url('nav.css');
+@import url('certif.css');
+@import url('competence.css');
+@import url('vitrine.css');
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('font/Outfit-VariableFont_wght.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+/*
+Couleur : 
+  --background-light: #F9FEFF;
+  --background-dark: #0D141F;
+  --background-element-light: #F1FAFD;
+  --background-element-dark: #111A27;
+  --text-light: #00749E;
+  --text-dark: #75C7F0;
+  --text-strong-light: #1D3E56;
+  --text-strong-dark: #C2F3FF;
+  --title-light: #00749E;
+  --title-dark: #75C7F0;
+  --border-light: #A9DAED;
+  --border-dark: #1B537B;
+  --border-btn-light: #8DCAE3;
+  --border-btn-dark: #1F6692;
+  --border-focus-light: #60B3D7;
+  --border-focus-dark: #197CAE;
+  --nav-btn-light: #E1F6FD;
+  --nav-btn-dark: #112840;
+  --nav-btn-hover-light: #D1F0FA;
+  --nav-btn-hover-dark: #113555;
+  --nav-btn-selected-light: #BEE7F5;
+  --nav-btn-selected-light: #154467;
+
+test
+#AEC5EB
+#99ACD1
+
+
+*/
+/*------test--------*--------*//*  
+    background: linear-gradient(145deg, var(--neo-backgrounf-1), var(--neo-backgrounf-2));
+    box-shadow:  20px 20px 60px var(--neo-shadow-1),
+        -20px -20px 60px var(--neo-shadow-2);
+
+background: linear-gradient(145deg, var(--neoe-backgrounf-1), var(--neoe-backgrounf-2));
+    box-shadow:  20px 20px 60px var(--neoe-shadow-1),
+        -20px -20px 60px var(--neoe-shadow-2);
+*/
+
+/*-----------Mise ne place des varaible de couleur pour le mode claire------------------*/
+:root {
+    --background: #FBFDFF; /*1*/
+    --background-element: #F4FAFF; /*2 */
+    --nav-btn: #E6F4FE; /* 3 */
+    --nav-btn-hover: #D5EFFF; /* 4  */
+    --nav-btn-selected: #C2E5FF; /* 5 */
+    --border: #ACD8FC; /* 6 */
+    --border-btn: #8EC8F6; /* 7 */
+    --border-focus: #5EB1EF; /* 8 */
+    --background-btn: #0090FF; /* 9 */
+    --background-btn-hover: #0588F0; /* 10 */
+    --text: #0D74CE; /* 11*/
+    --text-strong: #113264; /* 12 */
+    --title: #113264; /* 12 */
+    --neoe-backgrounf-1: #dce1e6;
+    --neoe-backgrounf-2: #ffffff;
+    --neoe-shadow-1: #cfd5d9;
+    --neoe-shadow-2: #ffffff;
+
+    --neo-backgrounf-1: #e2e4e6;
+    --neo-backgrounf-2: #ffffff;
+    --neo-shadow-1: #d5d7d9;
+    --neo-shadow-2: #ffffff;
+
+
+}
+/* Changement des varaible de couleur pour le dark mode */
+.dark_mode{
+
+    --background: #0D141F;
+
+    --background-element: #111A27;
+
+    --text: #75C7F0;
+
+    --text-strong: #C2F3FF;
+
+    --title: #C2F3FF;
+
+    --border: #1B537B;
+
+    --border-btn: #1F6692;
+
+    --border-focus: #197CAE;
+
+    --nav-btn: #112840;
+
+    --nav-btn-hover: #113555;
+
+    --nav-btn-selected: #154467;
+
+    --neo-backgrounf-1: #0c121c;
+    --neo-backgrounf-2: #0e1521;
+    --neo-shadow-1: #0a0f17;
+    --neo-shadow-2: #101927;
+
+    --neoe-backgrounf-1: #0f1723;
+    --neoe-backgrounf-2: #121c2a;
+    --neoe-shadow-1: #0d131d;
+    --neoe-shadow-2: #152131;
+}
+
+/*.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+
+body {
+    margin: 0;
+    padding: 0;
+    /* padding-top: 150px; */
+
+    /* font-family: 'ADLaM Display'; */
+    font-family: "Outfit", serif;
+    font-weight: 400;
+
+    color: var(--text);
+}
+/*---------- font ---------*/
+
+
+h1, h2, h3, h4, h5 {
+    /* font-family: 'ADLaM Display'; */
+    font-family: "Outfit", serif;
+    font-weight: 700;
+    color: var(--title);
+}
+
+html {
+    font-size: 100%;
+} /* 16px */
+
+h1 {
+    font-size: 4.210rem;
+    color: var(--title); /* 67.36px */
+}
+
+h2 {
+    font-size: 3.158rem;
+    color: var(--title);/* 50.56px */
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+h3 {
+    font-size: 2.369rem;
+    color: var(--title);/* 37.92px */
+}
+
+h4 {
+    font-size: 1.777rem; /* 28.48px */
+}
+
+h5 {
+    font-size: 1.333rem; /* 21.28px */
+}
+
+small {
+    font-size: 0.750rem; /* 12px */
+}
+
+
+/*------------------------*/
+
+.container{
+    /* width: 100%;
+    height: 100%; */
+    /*    border: 21px;*/
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered-element{
+    background-color: gray;
+    padding: 15px;
+    width: 100px;
+
+}
+
+
+/*----------- card -------------*/
+
+/* .card{
+    
+    overflow: hidden;
+    background: var(--background-element);
+    border: 0;
+
+} */
+
+/* BASE CARD (ne rien casser) */
+.card {
+  border: 0;
+  background: transparent;
+}
+
+.card .card-title{
+    color: var(--title);
+}
+.card .card-text{
+    color: var(--text);
+}
+
+/* ===== STYLE NEO RÉUTILISABLE ===== */
+.neo-card {
+  border-radius: 20px;
+  background: linear-gradient(
+    145deg,
+    var(--neoe-backgrounf-1),
+    var(--neoe-backgrounf-2)
+  );
+  box-shadow:
+    20px 20px 60px var(--neoe-shadow-1),
+    -20px -20px 60px var(--neoe-shadow-2);
+  position: relative;
+  padding: 1.5rem;
+  border: 2px solid var(--background-element);
+  color: var(--text);
+}
+
+.neo-card--round{
+  border-radius: 100px;
+}
+
+
+/* ===== NEO CARD INTERACTIVE ===== */
+
+.neo-card--interactive {
+  position: relative;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.neo-card--interactive:hover {
+  border-color: #008bf8;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
+}
+
+.neo-card__button {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+
+  transform: translate(-50%, 125%);
+  opacity: 0;
+
+  width: 60%;
+  padding: 0.5rem 1rem;
+
+  border: none;
+  border-radius: 1rem;
+
+  background-color: var(--background-btn);
+  color: #fff;
+
+  font-size: 1rem;
+  font-weight: 500;
+
+  cursor: pointer;
+
+  transition:
+    transform 0.3s ease-out,
+    opacity 0.3s ease-out,
+    background-color 0.2s ease;
+}
+
+.neo-card--interactive:hover .neo-card__button {
+  transform: translate(-50%, 50%);
+  opacity: 1;
+}
+
+/* ===== NEO CARD STATIQUE ===== */
+
+.neo-card--static {
+  cursor: default;
+}
+
+
+
+/* ------ Veille -------*/
+
+/* .veille{
+   
+    background-color: var(--background);
+}
+
+#veille .card{
+    width: 100vh;
+    border-radius: 20px;
+    
+    background: linear-gradient(145deg, var(--neoe-backgrounf-1), var(--neoe-backgrounf-2));
+    box-shadow:  20px 20px 60px var(--neoe-shadow-1),
+        -20px -20px 60px var(--neoe-shadow-2);
+}
+.veille .card .card-content{
+    color: var(--text);
+}
+.textC{
+    color: var(--text);
+}
+.veille .card .card-body a{
+    color: var(--background-btn-hover);
+}
+
+.tableau{
+    background-color: var(--background-element);
+} */
+
+.badge {
+  padding: 1px 9px 2px;
+  font-size: 12.025px;
+  font-weight: bold;
+  white-space: nowrap;
+  color: #ffffff;
+  background-color: #999999;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
+}
+/* .badge {
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
+} */
+.badge:hover {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.badge-error {
+  background-color: #b94a48;
+}
+.badge-error:hover {
+  background-color: #953b39;
+}
+.badge-warning {
+  background-color: #f89406;
+}
+.badge-warning:hover {
+  background-color: #c67605;
+}
+.badge-success {
+  background-color: #468847;
+}
+.badge-success:hover {
+  background-color: #356635;
+}
+.badge-info {
+  background-color: #3a87ad;
+}
+.badge-info:hover {
+  background-color: #2d6987;
+}
+.badge-inverse {
+  background-color: #333333;
+}
+.badge-inverse:hover {
+  background-color: #1a1a1a;
+}
