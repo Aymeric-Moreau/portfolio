@@ -12,14 +12,31 @@
              <!-- Blockout 1 alexi -->
                 <div class="masonry-item  mb-4">
                     <div class="card neo-card neo-card--interactive card-projet">
-                        <a data-bs-toggle="modal" data-bs-target="#modal-esp">
+                        <a data-bs-toggle="modal" data-bs-target="#modal-BlckContrast">
                             <div class="card-head"><span class="badge badge-warning">LD</span>
                                 <h5>LP</h5>
                             </div>
-                            <img class="card-img-top" src="assets/img/ESP.png" alt="ESP : Duel En Ligne" />
+                            <img class="card-img-top" src="assets/img/BlockoutContrast.png" alt="ESP : Duel En Ligne" />
                             <div class="card-details">
                                 <p class="text-title">Blockout : Contraste</p>
                                 <p class="text-body"><i class="cib-unreal-engine icon icon-xxl"></i></p>
+                            </div>
+                            <button class="neo-card__button">En savoir plus</button>
+                        </a>
+                    </div>
+                </div>
+                <!-- Blockout 1 alexi -->
+                <div class="masonry-item  mb-4">
+                    <div class="card neo-card neo-card--interactive card-projet">
+                        <a data-bs-toggle="modal" data-bs-target="#modal-Towerbael">
+                            <div class="card-head"><span class="badge badge-error">GameDev</span>
+                            <span class="badge ">GenProcedural</span>
+                                <h5>LP</h5>
+                            </div>
+                            <img class="card-img-top" src="assets/img/TowerOfBael.png" alt="ESP : Duel En Ligne" />
+                            <div class="card-details">
+                                <p class="text-title">Tower Of Bael</p>
+                                <p class="text-body"><i class="fab fa-unity fa-2x"></i></p>
                             </div>
                             <button class="neo-card__button">En savoir plus</button>
                         </a>
@@ -29,7 +46,7 @@
                 <!-- Projet Luna -->
                 <div class="masonry-item  mb-4">
                     <div class="card neo-card neo-card--interactive card-projet">
-                        <a data-bs-toggle="modal" data-bs-target="#modal-esp">
+                        <a data-bs-toggle="modal" data-bs-target="#modal-PLuna">
                             <div class="card-head"><span class="badge badge-success">GD</span>
                                 <h5>LP</h5>
                             </div>
@@ -43,10 +60,44 @@
                     </div>
                 </div>
 
+                <!-- Game jam Deathtination Finale -->
+                <div class="masonry-item  mb-4">
+                    <div class="card neo-card neo-card--interactive card-projet">
+                        <a data-bs-toggle="modal" data-bs-target="#modal-GJLPDeath">
+                            <div class="card-head"><span class="badge badge-warning">LD</span>
+                                <h5>LP</h5>
+                            </div>
+                            <img class="card-img-top" src="assets/img/GJDeath.png" alt="ESP : Duel En Ligne" />
+                            <div class="card-details">
+                                <p class="text-title">Game Jams : "Deathtination Finale" -a Floumby's Stourie
+                                <p class="text-body"><i class="fab fa-unity fa-2x"></i></p>
+                            </div>
+                            <button class="neo-card__button">En savoir plus</button>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Babble -->
+                <div class="masonry-item  mb-4">
+                    <div class="card neo-card neo-card--interactive card-projet">
+                        <a data-bs-toggle="modal" data-bs-target="#modal-Babbles">
+                            <div class="card-head"><span class="badge badge-warning">LD</span>
+                                <h5>LP</h5>
+                            </div>
+                            <img class="card-img-top" src="assets/img/Babbles.png" alt="ESP : Duel En Ligne" />
+                            <div class="card-details">
+                                <p class="text-title">Blockout : Babbles
+                                <p class="text-body"><i class="fab fa-unity fa-2x"></i></p>
+                            </div>
+                            <button class="neo-card__button">En savoir plus</button>
+                        </a>
+                    </div>
+                </div>
+
 <!-- nouveau genre -->
                 <div class="masonry-item  mb-4">
                     <div class="card neo-card neo-card--interactive card-projet">
-                        <a data-bs-toggle="modal" data-bs-target="#modal-esp">
+                        <a data-bs-toggle="modal" data-bs-target="#modal-influence">
                             <div class="card-head"><span class="badge badge-success">GD</span>
                                 <h5>LP</h5>
                             </div>
@@ -71,6 +122,23 @@
                             <div class="card-details">
                                 <p class="text-title">ESP : Duel En Réseau</p>
                                 <p class="text-body"><i class="cib-unreal-engine icon icon-xxl"></i></p>
+                            </div>
+                            <button class="neo-card__button">En savoir plus</button>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Jeu de societé -->
+                <div class="masonry-item  mb-4">
+                    <div class="card neo-card neo-card--interactive card-projet">
+                        <a data-bs-toggle="modal" data-bs-target="#modal-ascension">
+                            <div class="card-head"><span class="badge badge-success">GD</span>
+                                <h5>LP</h5>
+                            </div>
+                            <img class="card-img-top" src="assets/img/jdsAscension.jpg" alt="ESP : Duel En Ligne" />
+                            <div class="card-details">
+                                <p class="text-title">Jeu de société : Ascension</p>
+                                <p class="text-body"><i class="fa-regular fa-hand icon icon-xxl"></i> </p>
                             </div>
                             <button class="neo-card__button">En savoir plus</button>
                         </a>
@@ -107,22 +175,7 @@
                 </div>
                 
 
-<!-- Jeu de societé -->
-                <div class="masonry-item  mb-4">
-                    <div class="card neo-card neo-card--interactive card-projet">
-                        <a data-bs-toggle="modal" data-bs-target="#modal-ascension">
-                            <div class="card-head"><span class="badge badge-success">GD</span>
-                                <h5>LP</h5>
-                            </div>
-                            <img class="card-img-top" src="assets/img/jdsAscension.jpg" alt="ESP : Duel En Ligne" />
-                            <div class="card-details">
-                                <p class="text-title">Jeu de société : Ascension</p>
-                                <p class="text-body"><i class="fa-regular fa-hand icon icon-xxl"></i> </p>
-                            </div>
-                            <button class="neo-card__button">En savoir plus</button>
-                        </a>
-                    </div>
-                </div>
+
 
                 <!-- behavior tree  -->
                 <div class="masonry-item  mb-4">
@@ -377,6 +430,287 @@
             </div>
         </div>
 
+        <!-- Modal Tower Of Baël -->
+        <div class="modal fade" id="modal-Towerbael" tabindex="-1" aria-labelledby="modalTowerbael"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="modalRechercheTitre">Tower Of Baël
+                        </h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-break text-start">
+                        <h3>Tower Of Baël</h3>
+
+
+                        <h4>Objectif du projet</h4>
+                        <p>Dévlopper un jeu en duo</p>
+                        <ul>
+                            
+                        </ul>
+
+                        <h4>Consignes du projet</h4>
+                        <ul>
+                            
+                        </ul>
+                        <p>J'ai eu de la chance sur ce projet, car j'avais déjà développé mon système de
+                            dialogue dans le projet précédent. J'ai donc pu passer mon temps à l'améliorer
+                            au maximum.</p>
+
+
+                        <h4>Doc technique : </h4>
+                        <p><a href="assets\doc\Doc Behavior Tree Aymeric Moreau.zip" download>Télécharger
+                                le document</a>
+                        </p>
+                        <h4>Aperçu Video du projet :</h4>
+                        <video src="assets\vid\BehaviorTreeVid.mp4" width="800" height="500" controls loop muted
+                            playsinline>
+                        </video>
+                        <h4>Mon Behavior tree</h4>
+                        <img src="assets/img/behaviorTree.png" width="800" height="500" alt="Behavior tree">
+                        <h4>Conclusion</h4>
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Babbles -->
+        <div class="modal fade" id="modal-Babbles" tabindex="-1" aria-labelledby="modalBabbles"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="modalRechercheTitre">Blockout : Babbled
+                        </h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-break text-start">
+                        <h3>Babbles</h3>
+
+
+                        <h4>Objectif du projet</h4>
+                        <p>Faire un blockout dans un jeux déja existant : Babbles</p>
+                        <ul>
+                            
+                        </ul>
+
+                        <h4>Consignes du projet</h4>
+                        <ul>
+                            
+                        </ul>
+                        <p>J'ai eu de la chance sur ce projet, car j'avais déjà développé mon système de
+                            dialogue dans le projet précédent. J'ai donc pu passer mon temps à l'améliorer
+                            au maximum.</p>
+
+
+                        <h4>Doc technique : </h4>
+                        <p><a href="assets\doc\Doc Behavior Tree Aymeric Moreau.zip" download>Télécharger
+                                le document</a>
+                        </p>
+                        <h4>Aperçu Video du projet :</h4>
+                        <video src="assets\vid\BehaviorTreeVid.mp4" width="800" height="500" controls loop muted
+                            playsinline>
+                        </video>
+                        <h4>Mon Behavior tree</h4>
+                        <img src="assets/img/behaviorTree.png" width="800" height="500" alt="Behavior tree">
+                        <h4>Conclusion</h4>
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Game jam death -->
+        <div class="modal fade" id="modal-GJLPDeath" tabindex="-1" aria-labelledby="modalGJLPDeath"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="modalRechercheTitre">Game Jam, Théme : Mort
+                        </h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-break text-start">
+                        <h3>"Deathtination Finale" -a Floumby's Stourie</h3>
+
+
+                        <h4>Objectif du projet</h4>
+                        <p>Créer un un jeu en 3 jour sur le théme de la mort</p>
+                        <ul>
+                            
+                        </ul>
+
+                        <h4>Consignes du projet</h4>
+                        <ul>
+                            
+                        </ul>
+                        <p>J'ai eu de la chance sur ce projet, car j'avais déjà développé mon système de
+                            dialogue dans le projet précédent. J'ai donc pu passer mon temps à l'améliorer
+                            au maximum.</p>
+
+
+                        <h4>Doc technique : </h4>
+                        <p><a href="assets\doc\Doc Behavior Tree Aymeric Moreau.zip" download>Télécharger
+                                le document</a>
+                        </p>
+                        <h4>Aperçu Video du projet :</h4>
+                        <video src="assets\vid\BehaviorTreeVid.mp4" width="800" height="500" controls loop muted
+                            playsinline>
+                        </video>
+                        <h4>Mon Behavior tree</h4>
+                        <img src="assets/img/behaviorTree.png" width="800" height="500" alt="Behavior tree">
+                        <h4>Conclusion</h4>
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal influence -->
+        <div class="modal fade" id="modal-influence" tabindex="-1" aria-labelledby="modalinfluence"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="modalRechercheTitre">Nouveau Genre
+                        </h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-break text-start">
+                        <h3>L'influence</h3>
+
+
+                        <h4>Objectif du projet</h4>
+                        <p>Créer un genre</p>
+                        <ul>
+                            
+                        </ul>
+
+                        <h4>Consignes du projet</h4>
+                        <ul>
+                            
+                        </ul>
+                        <p>J'ai eu de la chance sur ce projet, car j'avais déjà développé mon système de
+                            dialogue dans le projet précédent. J'ai donc pu passer mon temps à l'améliorer
+                            au maximum.</p>
+
+
+                        <h4>Doc technique : </h4>
+                        <p><a href="assets\doc\Doc Behavior Tree Aymeric Moreau.zip" download>Télécharger
+                                le document</a>
+                        </p>
+                        <h4>Aperçu Video du projet :</h4>
+                        <video src="assets\vid\BehaviorTreeVid.mp4" width="800" height="500" controls loop muted
+                            playsinline>
+                        </video>
+                        <h4>Mon Behavior tree</h4>
+                        <img src="assets/img/behaviorTree.png" width="800" height="500" alt="Behavior tree">
+                        <h4>Conclusion</h4>
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Projet Luna -->
+        <div class="modal fade" id="modal-PLuna" tabindex="-1" aria-labelledby="modalPLuna"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="modalRechercheTitre">Projet Luna
+                        </h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-break text-start">
+                        <h3>Projet Luna</h3>
+
+
+                        <h4>Objectif du projet</h4>
+                        <p>Proposer un jeu pour le GGS</p>
+                        <ul>
+                            
+                        </ul>
+
+                        <h4>Consignes du projet</h4>
+                        <ul>
+                            
+                        </ul>
+                        <p>J'ai eu de la chance sur ce projet, car j'avais déjà développé mon système de
+                            dialogue dans le projet précédent. J'ai donc pu passer mon temps à l'améliorer
+                            au maximum.</p>
+
+
+                        <h4>Doc technique : </h4>
+                        <p><a href="assets\doc\Doc Behavior Tree Aymeric Moreau.zip" download>Télécharger
+                                le document</a>
+                        </p>
+                        <h4>Aperçu Video du projet :</h4>
+                        <video src="assets\vid\BehaviorTreeVid.mp4" width="800" height="500" controls loop muted
+                            playsinline>
+                        </video>
+                        <h4>Mon Behavior tree</h4>
+                        <img src="assets/img/behaviorTree.png" width="800" height="500" alt="Behavior tree">
+                        <h4>Conclusion</h4>
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal blockout constrast -->
+        <div class="modal fade" id="modal-BlckContrast" tabindex="-1" aria-labelledby="modalBlckContrast"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="modalRechercheTitre">Blockout - contrast
+                        </h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-break text-start">
+                        <h3>Blockout : Contrast</h3>
+
+
+                        <h4>Objectif du projet</h4>
+                        <p>Faire un blockout sur le théme du contraste</p>
+                        <ul>
+                            
+                        </ul>
+
+                        <h4>Consignes du projet</h4>
+                        <ul>
+                            
+                        </ul>
+                        <p>J'ai eu de la chance sur ce projet, car j'avais déjà développé mon système de
+                            dialogue dans le projet précédent. J'ai donc pu passer mon temps à l'améliorer
+                            au maximum.</p>
+
+
+                        <h4>Doc technique : </h4>
+                        <p><a href="assets\doc\Doc Behavior Tree Aymeric Moreau.zip" download>Télécharger
+                                le document</a>
+                        </p>
+                        <h4>Aperçu Video du projet :</h4>
+                        <video src="assets\vid\BehaviorTreeVid.mp4" width="800" height="500" controls loop muted
+                            playsinline>
+                        </video>
+                        <h4>Mon Behavior tree</h4>
+                        <img src="assets/img/behaviorTree.png" width="800" height="500" alt="Behavior tree">
+                        <h4>Conclusion</h4>
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- Modal Ascension -->
         <div class="modal fade" id="modal-ascension" tabindex="-1" aria-labelledby="modalascension"
             aria-hidden="true">

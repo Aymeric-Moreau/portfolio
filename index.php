@@ -25,18 +25,20 @@
     <div class="row align-items-center mb-4">
 
       <!-- COLONNE GAUCHE -->
-      <div class="col-12 col-lg-3 mb-4 mb-lg-0">
+      <div class="col-12 col-lg-3 mb-4 mb-lg-0 gx-lg-5 gx-xl-6">
          <div class="card neo-card neo-card--interactive card-projet h-100">
-        <a data-bs-toggle="modal" data-bs-target="#modal-esp" class="text-decoration-none">
+        <a data-bs-toggle="modal" data-bs-target="#modal-BlckContrast" class="text-decoration-none">
             
             <div class="card-head d-flex justify-content-between align-items-center mb-2">
+              <i class="fa-solid fa-thumbtack"></i>
                 <span class="badge badge-warning">LD</span>
+                
                 <h6 class="mb-0">LP</h6>
             </div>
 
             <img
                 class="card-img-top mb-3"
-                src="assets/img/ESP.png"
+                src="assets/img/BlockoutContrast.png"
                 alt="ESP : Duel En Ligne"
             />
 
@@ -57,7 +59,7 @@
       </div>
 
       <!-- TEXTE CENTRAL ENCADRÉ -->
-      <div class="col-12 col-lg-6">
+      <div class="col-12 col-lg-6 ">
         <div class="neo-card neo-card--round text-center vitrine-center">
           <h1 class="mb-3">
             <strong>Bonjour !</strong><br>
@@ -74,7 +76,7 @@
       </div>
 
       <!-- COLONNE DROITE -->
-      <div class="col-12 col-lg-3 mt-4 mt-lg-0">
+      <div class="col-12 col-lg-3 mt-4 mt-lg-0 gx-lg-5 gx-xl-6">
         <!-- Tu peux mettre une card ici -->
         <!-- <div class="card neo-card h-100 text-cente">
           <div class="card-body text-center">
@@ -85,23 +87,26 @@
         
         <!-- <div class="col-12 col-md-6 col-lg-3"> -->
     <div class="card neo-card neo-card--interactive card-projet h-100">
-        <a data-bs-toggle="modal" data-bs-target="#modal-esp" class="text-decoration-none">
+        <a data-bs-toggle="modal" data-bs-target="#modal-Towerbael" class="text-decoration-none">
             
             <div class="card-head d-flex justify-content-between align-items-center mb-2">
-                <span class="badge badge-warning">LD</span>
+              <i class="fa-solid fa-thumbtack"></i>
+                <span class="badge badge-error">GameDev</span>
+                <span class="badge ">GenProcedural</span>
+                
                 <h6 class="mb-0">LP</h6>
             </div>
 
             <img
                 class="card-img-top mb-3"
-                src="assets/img/ESP.png"
+                src="assets/img/TowerOfBael.png"
                 alt="ESP : Duel En Ligne"
             />
 
             <div class="card-details text-center">
-                <p class="text-title mb-1">Blockout : Contraste</p>
+                <p class="text-title mb-1">Tower Of Baël</p>
                 <p class="text-body">
-                    <i class="cib-unreal-engine icon icon-xxl"></i>
+                    <i class="fab fa-unity fa-2x"></i>
                 </p>
             </div>
 

@@ -7,59 +7,95 @@
 
     <div class="container">
         <div class="row d-flex justify-content-center">
-            <!-- Projet 1 : Cegep de la Pocatière -->
-            <div class="col-lg-4 col-md-6 col-xs-12">
-                <a data-bs-toggle="modal" data-bs-target="#modal-Poc">
-                    <div class="card">
-                        <img class="card-img-top" src="assets/img/CegepPoc.svg" alt="Cegep de la Pocatière" />
-                        <div class="card-details">
-                            <p class="text-title">Cegep de la Pocatière : Avoiding Space (Jeux Kinect)
-                            </p>
-                            <p class="text-body text-center">
-                                <i class="fab fa-unity fa-2x"></i> <!-- Icône Unity -->
-                            </p>
-                        </div>
-                        <button class="card-button" data-bs-toggle="modal" data-bs-target="#modal-poc">En savoir
-                            plus</button>
-                    </div>
-                </a>
+
+    <!-- Projet 1 : Cegep de la Pocatière -->
+    <div class="col-lg-4 col-md-6 col-xs-12 mb-4">
+        <div
+            class="card card-projet h-100"
+            role="button"
+            data-bs-toggle="modal"
+            data-bs-target="#modal-poc"
+        >
+            <img
+                class="card-img-top"
+                src="assets/img/CegepPoc.svg"
+                alt="Cegep de la Pocatière"
+            />
+
+            <div class="card-details">
+                <p class="text-title">
+                    Cegep de la Pocatière : Avoiding Space (Jeux Kinect)
+                </p>
+                <p class="text-body text-center">
+                    <i class="fab fa-unity fa-2x"></i>
+                </p>
             </div>
 
-            <!-- Projet 2 : Stock2Com -->
-            <div class="col-lg-4 col-md-6 col-xs-12">
-                <a data-bs-toggle="modal" data-bs-target="#modal-stock3">
-                    <div class="card">
-                        <img class="card-img-top" src="assets/img/stock3.png" alt="Stock2Com" />
-                        <div class="card-details">
-                            <p class="text-title">Stock2Com</p>
-                            <p class="text-body text-center">
-                                <i class="cib-ruby icon icon-xxl"></i> <!-- Icône Ruby on Rails -->
-                            </p>
-                        </div>
-                        <button class="card-button" data-bs-toggle="modal" data-bs-target="#modal-stock3">En savoir
-                            plus</button>
-                    </div>
-                </a>
-            </div>
-
-            <!-- Projet 3 : Association Omnisport de Bourgueil -->
-            <div class="col-lg-4 col-md-6 col-xs-12">
-                <a data-bs-toggle="modal" data-bs-target="#modal-omnisport">
-                    <div class="card">
-                        <img class="card-img-top" src="assets/img/esb.png" alt="Association Omnisport de Bourgueil" />
-                        <div class="card-details">
-                            <p class="text-title">L'association omnisport de Bourgueil</p>
-                            <p class="text-body text-center">
-                                <i class="fab fa-html5 fa-2x"></i> <!-- Icône HTML -->
-                                <i class="fab fa-css3-alt fa-2x"></i> <!-- Icône CSS -->
-                            </p>
-                        </div>
-                        <button class="card-button" data-bs-toggle="modal" data-bs-target="#modal-omnisport">En
-                            savoir plus</button>
-                    </div>
-                </a>
-            </div>
+            <button class="card-button" tabindex="-1">
+                En savoir plus
+            </button>
         </div>
+    </div>
+
+    <!-- Projet 2 : Stock2Com -->
+    <div class="col-lg-4 col-md-6 col-xs-12 mb-4">
+        <div
+            class="card card-projet h-100"
+            role="button"
+            data-bs-toggle="modal"
+            data-bs-target="#modal-stock3"
+        >
+            <img
+                class="card-img-top"
+                src="assets/img/stock3.png"
+                alt="Stock2Com"
+            />
+
+            <div class="card-details">
+                <p class="text-title">Stock2Com</p>
+                <p class="text-body text-center">
+                    <i class="cib-ruby icon icon-xxl"></i>
+                </p>
+            </div>
+
+            <button class="card-button" tabindex="-1">
+                En savoir plus
+            </button>
+        </div>
+    </div>
+
+    <!-- Projet 3 : Association Omnisport de Bourgueil -->
+    <div class="col-lg-4 col-md-6 col-xs-12 mb-4">
+        <div
+            class="card card-projet h-100"
+            role="button"
+            data-bs-toggle="modal"
+            data-bs-target="#modal-esb"
+        >
+            <img
+                class="card-img-top"
+                src="assets/img/esb.png"
+                alt="Association Omnisport de Bourgueil"
+            />
+
+            <div class="card-details">
+                <p class="text-title">
+                    L'association omnisport de Bourgueil
+                </p>
+                <p class="text-body text-center">
+                    <i class="fab fa-html5 fa-2x"></i>
+                    <i class="fab fa-css3-alt fa-2x"></i>
+                </p>
+            </div>
+
+            <button class="card-button" tabindex="-1">
+                En savoir plus
+            </button>
+        </div>
+    </div>
+
+</div>
+
     </div>
 
 
