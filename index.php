@@ -1,9 +1,9 @@
 <?php include 'template/Header.php'; ?>
 
-<body class="pt-4 pt-lg-5">
+ <body class=""> <!--  pt-4 pt-lg-5 -->
     <?php include 'template/nav.php'; ?>
 
-<div class="vitrine py-5" id="vitrine">
+<div class="vitrine" id="vitrine">
   <div class="container">
 
     <!-- LIGNE DU HAUT (cards libres) -->

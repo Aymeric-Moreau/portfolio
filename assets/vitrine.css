@@ -1,14 +1,20 @@
 .vitrine{
-    display: flex;
-    justify-content: center; /*centre horizontalement*/
-    align-items: center; /*centre Veticallemnt*/
-    /*    border: 5px solid #555; */
-    height: 100vh; /* la div prend la taille de l'affichage ' */
-    /*    background-image: url('img/backVitrine3.jpg');
-        background-size: 100%;*/
-    background-color: var(--background);
+ 
+
+      display: flex;
+  align-items: center; /* OK */
+  background-color: var(--background);
+
+  min-height: 100vh;   /* IMPORTANT */
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
+@media (min-width: 992px) {
+  .vitrine {
+    padding-top: 6.5rem; /* navbar desktop */
+  }
+}
 .profil-area{
     padding: 80px 0;
 }

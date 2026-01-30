@@ -15,7 +15,7 @@
 
             <div class='row'>
                 <div class='col-lg-4 col-md-6 col-xs-12'>
-                    <div class="card neo-card neo-card--static card-competence col-sm-4">
+                    <div class="card neo-card neo-card--static card-competence ">
                         <div class="card-body">
                             <img src="assets/img/unrealEngine3.png" alt=" logo de unreal engine" />
 
@@ -27,7 +27,7 @@
                     </div>
                 </div>
                 <div class='col-lg-4 col-md-6 col-xs-12'>
-                    <div class="card neo-card neo-card--static card-competence col-sm-4">
+                    <div class="card neo-card neo-card--static card-competence ">
                         <div class="card-body">
                             <img src="assets/img/Unity.png" alt=" logo de UNITY" />
 
@@ -39,7 +39,7 @@
                     </div>
                 </div>
                 <div class='col-lg-4 col-md-6 col-xs-12'>
-                    <div class="card neo-card neo-card--static card-competence col-sm-4">
+                    <div class="card neo-card neo-card--static card-competence ">
                         <div class="card-body">
                             <img src="assets/img/icons8-blender-3d-48.png" alt=" logo de Blender" />
 
@@ -71,7 +71,7 @@
                     </div>
                 </div>
                 <div class='col-lg-4 col-md-6 col-xs-12'>
-                    <div class="card neo-card neo-card--static card-competence col-sm-4">
+                    <div class="card neo-card neo-card--static card-competence ">
                         <div class="card-body">
                             <img src="assets/img/java.png" alt=" logo du language JAVA" />
                             <img src="assets/img/hibernate_logo.png" alt="logo du framework hibernate" />

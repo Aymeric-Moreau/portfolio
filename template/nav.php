@@ -50,3 +50,18 @@
     </div>
   </nav>
 </header>
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const navbarCollapse = document.getElementById('mainNavbar');
+  const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+
+  navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      const bsCollapse = bootstrap.Collapse.getOrCreateInstance(navbarCollapse);
+      bsCollapse.hide();
+    });
+  });
+});
+</script>
