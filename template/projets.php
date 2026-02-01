@@ -454,9 +454,7 @@
                         <ul>
                             
                         </ul>
-                        <p>J'ai eu de la chance sur ce projet, car j'avais déjà développé mon système de
-                            dialogue dans le projet précédent. J'ai donc pu passer mon temps à l'améliorer
-                            au maximum.</p>
+                        
 
 
                         <h4>Doc technique : </h4>
@@ -487,39 +485,146 @@
                         </h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-body text-break text-start">
-                        <h3>Babbles</h3>
+                   <div class="modal-body text-break text-start">
 
+    <h3>Babbles</h3>
 
-                        <h4>Objectif du projet</h4>
-                        <p>Faire un blockout dans un jeux déja existant : Babbles</p>
-                        <ul>
-                            
-                        </ul>
+    <p>
+        <strong>Babbles</strong> est un projet de <strong>Level Design</strong> réalisé en groupe de quatre,
+        basé sur un jeu déja existant.
+        L’objectif était de concevoir et blockouter de nouveaux niveaux jouables
+        tout en respectant l’univers, le ton et les mécaniques du jeu original.
+    </p>
 
-                        <h4>Consignes du projet</h4>
-                        <ul>
-                            
-                        </ul>
-                        <p>J'ai eu de la chance sur ce projet, car j'avais déjà développé mon système de
-                            dialogue dans le projet précédent. J'ai donc pu passer mon temps à l'améliorer
-                            au maximum.</p>
+    <h4>Objectif du projet</h4>
+    <p>
+        Le projet consistait à créer <strong>deux niveaux reliés narrativement</strong>
+        dans le jeu <strong>Babbles</strong>, à l’aide de Unity.
+        Les niveaux devaient être accessibles à un public grand public,
+        avec une ambiance légère et peu sérieuse, en accord avec l’identité du jeu.
+    </p>
 
+    <h4>Concept général</h4>
+    <p>
+        Notre équipe a choisi de développer un arc narratif se déroulant
+        dans deux environnements contrastés :
+        une <strong>grande ville de type capitale pirate</strong>,
+        suivie d’un <strong>volcan</strong>.
+        Ces deux espaces sont liés par l’histoire et la progression du joueur.
+    </p>
 
-                        <h4>Doc technique : </h4>
-                        <p><a href="assets\doc\Doc Behavior Tree Aymeric Moreau.zip" download>Télécharger
-                                le document</a>
-                        </p>
-                        <h4>Aperçu Video du projet :</h4>
-                        <video src="assets\vid\BehaviorTreeVid.mp4" width="800" height="500" controls loop muted
-                            playsinline>
-                        </video>
-                        <h4>Mon Behavior tree</h4>
-                        <img src="assets/img/behaviorTree.png" width="800" height="500" alt="Behavior tree">
-                        <h4>Conclusion</h4>
-                        
+    <h4>Rôle et contributions personnelles</h4>
+    <p>
+        J’étais responsable d’environ la moitié du premier niveau,
+        situé dans la ville. J’ai principalement travaillé sur :
+    </p>
+    <ul>
+        <li>la zone industrielle</li>
+        <li>la rue marchande nord</li>
+        <li>la lisibilité des parcours</li>
+        <li>le rythme de progression du joueur</li>
+        <li>la documentation</li>
+    </ul>
 
-                    </div>
+    <h4>Intentions de Level Design – Niveau 1 : Grande Ville / Capitale Pirate</h4>
+
+    <p>
+        Le premier niveau se déroule dans une grande ville pirate construite autour
+        d’un volcan. L’objectif du joueur est de comprendre l’origine du problème
+        et de rassembler les éléments nécessaires pour calmer la colère du volcan.
+    </p>
+
+    <h5>Intentions de gameplay</h5>
+    <p>
+        Le niveau est centré sur <strong>l’exploration</strong>, <strong>l’enquête</strong>
+        et le <strong>dialogue avec les PNJ</strong>.
+        Le joueur est encouragé à découvrir la ville,
+        à interagir avec ses habitants et à comprendre leur mode de vie.
+    </p>
+
+    <p>
+        La <strong>verticalité</strong> est un élément clé du level design,
+        renforçant la navigation et la variété des parcours.
+    </p>
+
+    <h5>Mécaniques utilisées</h5>
+    <ul>
+        <li>Tremplins poulpes</li>
+        <li>Geysers</li>
+        <li>Courants marins</li>
+    </ul>
+
+    <p>
+        Ces mécaniques sont utilisées pour encourager le déplacement,
+        le parcours et l’exploration de manière ludique et accessible.
+    </p>
+
+    <h5>Structure et progression</h5>
+    <p>
+        La progression repose sur une série de quêtes simples.
+        Le joueur doit aider <strong>quatre personnages</strong>,
+        chacun demandant un service en échange d’un objet nécessaire
+        à l’avancée de l’histoire :
+    </p>
+
+    <ul>
+        <li>Un maraîcher demandant de récupérer des graines</li>
+        <li>Un éleveur cherchant son bébé baleine disparu</li>
+        <li>Un antiquaire demandant de négocier avec un client</li>
+        <li>Un chasseur demandant de récupérer un hippocampe en hauteur</li>
+    </ul>
+<p>je me suis charger des 2 dernier.</p>
+    <p>
+        Ces objectifs obligent le joueur à explorer les différents quartiers
+        et à utiliser les mécaniques de déplacement pour progresser.
+    </p>
+
+    <h5>Intentions narratives</h5>
+    <p>
+        Le niveau débute par l’arrivée du joueur dans un marché animé,
+        où l’ambiance chaleureuse contraste avec le danger imminent du volcan.
+        Sur la place centrale, un vieil homme prêche seul au sujet
+        de la « colère du géant », sans être pris au sérieux.
+    </p>
+
+    <p>
+        Ce personnage, ancien sage, déclenche la quête principale
+        en expliquant les rituels nécessaires pour calmer le volcan,
+        incitant le joueur à parcourir la ville et à aider ses habitants.
+    </p>
+
+    <h5>Intentions artistiques et ambiance</h5>
+    <p>
+        La ville est pensée comme un espace <strong>vivant et diversifié</strong>,
+        composé de quartiers marchands, résidentiels, historiques et industriels.
+        Les matériaux (bois, pierre volcanique, métal) et la lumière du coucher de soleil
+        renforcent l’identité pirate et chaleureuse de la cité.
+    </p>
+
+    <p>
+        Un contraste fort est créé entre les zones marchandes animées
+        et la zone industrielle, plus froide et désertée,
+        afin de raconter l’évolution et les tensions internes de la ville.
+    </p>
+
+    <h5>Fin du niveau</h5>
+    <p>
+        Une fois tous les objets récupérés, le joueur les rapporte au vieux sage,
+        qui fabrique l’élément permettant de calmer le volcan.
+        Le niveau se conclut par l’utilisation d’un <strong>courant marin</strong>
+        menant au sommet du cratère, marquant la transition vers la suite du jeu.
+    </p>
+
+    <h4>Conclusion</h4>
+    <p>
+        Ce projet m’a permis de travailler le level design à partir d’un jeu existant,
+        en respectant un univers, des mécaniques et des contraintes précises.
+        Il m’a également appris à concevoir un niveau cohérent,
+        mêlant exploration, narration et gameplay.
+    </p>
+
+</div>
+
                 </div>
             </div>
         </div>
@@ -535,38 +640,99 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body text-break text-start">
-                        <h3>"Deathtination Finale" -a Floumby's Stourie</h3>
 
+    <h3>Deathtination Finale – A Floumby’s Stourie</h3>
 
-                        <h4>Objectif du projet</h4>
-                        <p>Créer un un jeu en 3 jour sur le théme de la mort</p>
-                        <ul>
-                            
-                        </ul>
+    <p>
+        <strong>Deathtination Finale</strong> est un jeu développé lors de ma première 
+        <strong>Game Jam</strong> (environ 54 heures), sur le thème de la <strong>mort</strong>.
+        Le projet a été réalisé par une équipe de six personnes :
+        trois développeurs, un artiste et deux level designers.
+    </p>
 
-                        <h4>Consignes du projet</h4>
-                        <ul>
-                            
-                        </ul>
-                        <p>J'ai eu de la chance sur ce projet, car j'avais déjà développé mon système de
-                            dialogue dans le projet précédent. J'ai donc pu passer mon temps à l'améliorer
-                            au maximum.</p>
+    <h4>Pitch du jeu</h4>
+    <p>
+        Le joueur incarne <strong>Floumby</strong>, un extraterrestre au style cartoon,
+        coincé dans un parking abandonné.  
+        La particularité du jeu repose sur une mécanique centrale :
+        <strong>mourir permet de progresser</strong>.
+    </p>
 
+    <p>
+        Chaque mort débloque une nouvelle compétence indispensable pour continuer l’exploration,
+        transformant l’échec en outil d’apprentissage et de progression.
+    </p>
 
-                        <h4>Doc technique : </h4>
-                        <p><a href="assets\doc\Doc Behavior Tree Aymeric Moreau.zip" download>Télécharger
-                                le document</a>
-                        </p>
-                        <h4>Aperçu Video du projet :</h4>
-                        <video src="assets\vid\BehaviorTreeVid.mp4" width="800" height="500" controls loop muted
-                            playsinline>
-                        </video>
-                        <h4>Mon Behavior tree</h4>
-                        <img src="assets/img/behaviorTree.png" width="800" height="500" alt="Behavior tree">
-                        <h4>Conclusion</h4>
-                        
+    <h4>Objectif de design</h4>
+    <p>
+        L’objectif du projet était de concevoir une expérience ludique autour de la mort,
+        non pas comme une punition, mais comme un <strong>levier de gameplay</strong>.
+        Le joueur est encouragé à expérimenter, prendre des risques et tester les limites
+        du niveau pour découvrir de nouvelles possibilités.
+    </p>
 
-                    </div>
+    <h4>Mécanique centrale</h4>
+    <ul>
+        <li>La mort débloque des compétences</li>
+        <li>Les compétences sont nécessaires pour accéder à de nouvelles zones</li>
+        <li>Le joueur apprend par l’expérimentation et l’échec</li>
+        <li>La progression est liée à la compréhension du level design</li>
+    </ul>
+
+    <h4>Game Design & Level Design</h4>
+    <p>
+        Avec mon collègue level designer, j’étais en charge du
+        <strong>Game Design</strong> et du <strong>Level Design</strong> du projet.
+        Nous avons travaillé conjointement sur la structure des niveaux,
+        le rythme de progression et l’intégration des mécaniques.
+    </p>
+
+    <p>
+        J’ai notamment participé au <strong>brainstorming initial</strong> et proposé
+        l’introduction du jeu par une <strong>chute depuis une grue</strong>.
+        Cette séquence sert de <strong>tutoriel implicite</strong>, permettant au joueur
+        de comprendre dès le début que la mort fait partie intégrante du gameplay
+        et qu’elle est nécessaire pour avancer.
+    </p>
+
+    <h4>Contraintes et apprentissages</h4>
+    <p>
+        Ce projet m’a confronté à de fortes contraintes de temps,
+        typiques d’une game jam. Il m’a appris à :
+    </p>
+    <ul>
+        <li>faire des choix de design rapides et efficaces</li>
+        <li>prioriser les mécaniques essentielles</li>
+        <li>communiquer clairement les intentions de gameplay</li>
+        <li>concevoir des niveaux lisibles en très peu de temps</li>
+    </ul>
+
+    <h4>Ce que ce projet démontre</h4>
+    <ul>
+        <li>Capacité à concevoir un gameplay autour d’un thème imposé</li>
+        <li>Compréhension du lien entre mécanique et level design</li>
+        <li>Utilisation de l’échec comme outil de progression</li>
+        <li>Travail en équipe dans un contexte de forte pression temporelle</li>
+        <li>Conception de tutoriels implicites par le level design</li>
+    </ul>
+
+    <h4>Lien du projet</h4>
+    <p>
+        <a href="https://ouki13.itch.io/deathtination-finale-a-floumbys-stourie" target="_blank">
+            Voir le projet sur itch.io
+        </a>
+    </p>
+
+    <h4>Conclusion</h4>
+    <p>
+        <strong>Deathtination Finale</strong> a été un projet très formateur.
+Il m’a permis de travailler le game design et le level design sous de fortes
+contraintes de temps, et d’explorer une manière originale de faire progresser
+le joueur grâce à la mort.
+    </p>
+
+</div>
+
                 </div>
             </div>
         </div>
@@ -582,38 +748,119 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body text-break text-start">
-                        <h3>L'influence</h3>
 
+    <h3>L’Influence</h3>
 
-                        <h4>Objectif du projet</h4>
-                        <p>Créer un genre</p>
-                        <ul>
-                            
-                        </ul>
+    <p>
+        <strong>L’Influence</strong> est un projet de <strong>Game Design</strong> réalisé en groupe de cinq, ayant pour objectif
+        la <strong>création d’un nouveau genre vidéoludique</strong> : les <strong>Influence Games</strong>.
+        Le projet comprend la définition théorique du genre, la rédaction d’un Game Design Document complet
+        et la conception d’un prototype papier.
+    </p>
 
-                        <h4>Consignes du projet</h4>
-                        <ul>
-                            
-                        </ul>
-                        <p>J'ai eu de la chance sur ce projet, car j'avais déjà développé mon système de
-                            dialogue dans le projet précédent. J'ai donc pu passer mon temps à l'améliorer
-                            au maximum.</p>
+    <h4>Pitch du genre</h4>
+    <blockquote>
+        « Dans un Influence Game, le joueur n’est pas au centre de l’action, mais au centre des causes. »
+    </blockquote>
 
+    <p>
+        Le joueur n’agit pas directement sur le monde, mais influence ses systèmes
+        (personnages, environnement, objets ou règles), déclenchant des chaînes de causes et de conséquences
+        au sein d’un monde autonome.
+    </p>
 
-                        <h4>Doc technique : </h4>
-                        <p><a href="assets\doc\Doc Behavior Tree Aymeric Moreau.zip" download>Télécharger
-                                le document</a>
-                        </p>
-                        <h4>Aperçu Video du projet :</h4>
-                        <video src="assets\vid\BehaviorTreeVid.mp4" width="800" height="500" controls loop muted
-                            playsinline>
-                        </video>
-                        <h4>Mon Behavior tree</h4>
-                        <img src="assets/img/behaviorTree.png" width="800" height="500" alt="Behavior tree">
-                        <h4>Conclusion</h4>
-                        
+    <h4>Objectif de design</h4>
+    <p>
+        L’objectif du projet était de sortir des schémas traditionnels du game design
+        en proposant une expérience basée sur l’<strong>action indirecte</strong>,
+        l’<strong>émergence narrative</strong> et la <strong>rejouabilité</strong>.
+    </p>
 
-                    </div>
+    <p>
+        Le joueur observe, influence, puis s’adapte aux réactions du monde,
+        sans jamais en avoir le contrôle total.
+    </p>
+
+    <h4>Boucle de gameplay principale</h4>
+    <ul>
+        <li>Observer l’état du monde et des systèmes en place</li>
+        <li>Identifier un ou plusieurs leviers d’influence</li>
+        <li>Appliquer une influence indirecte</li>
+        <li>Observer les réactions et effets en chaîne</li>
+        <li>Adapter sa stratégie en fonction des conséquences</li>
+    </ul>
+
+    <h4>Principes fondamentaux du genre</h4>
+    <ul>
+        <li>Action indirecte et non intrusive</li>
+        <li>Monde autonome et crédible</li>
+        <li>Chaînes de causes et conséquences</li>
+        <li>Histoires émergentes</li>
+        <li>Choix aux résultats partiellement imprévisibles</li>
+        <li>Forte rejouabilité</li>
+    </ul>
+
+    <h4>Concept de jeu illustratif</h4>
+    <p>
+        Pour illustrer ce genre, nous avons conçu un jeu de <strong>comédie horrifique</strong>
+        dans lequel le joueur incarne un fantôme cherchant à faire fuir un groupe de jeunes
+        explorant sa maison abandonnée.
+    </p>
+
+    <p>
+        Le joueur n’interagit jamais directement avec les personnages.
+        Il agit uniquement par l’environnement :
+    </p>
+    <ul>
+        <li>ouvrir ou fermer violemment des fenêtres</li>
+        <li>faire tomber des objets</li>
+        <li>modifier l’ambiance sonore ou lumineuse</li>
+    </ul>
+
+    <p>
+        Ces influences modifient la peur, les croyances et les décisions des PNJ,
+        générant des situations imprévues et des récits émergents.
+    </p>
+
+    <h4>Rôle et contributions personnelles</h4>
+    <ul>
+        <li>Définition et formalisation du genre Influence Game</li>
+        <li>Rédaction du Game Design Document</li>
+        <li>Conception et tests du prototype papier</li>
+        <li>Réflexion sur la lisibilité, les limites et les erreurs de design</li>
+    </ul>
+
+    <!-- <h4>Ce que ce projet démontre</h4>
+    <ul>
+        <li>Capacité à concevoir des systèmes complexes et cohérents</li>
+        <li>Compréhension des mécaniques émergentes</li>
+        <li>Réflexion sur les limites et contraintes du design</li>
+        <li>Approche théorique solide du game design</li>
+        <li>Utilisation du prototype papier comme outil de conception</li>
+    </ul> -->
+
+    <h4>Documents de conception</h4>
+    <p>
+        <a href="https://docs.google.com/document/d/1trO-TyQVVFMuw1qQVWpcMIIJ_9ULGmKhj70N2ljhM2o/edit?usp=sharing" target="_blank">
+            Consulter le Game Design Document et le cahier des charges
+        </a>
+    </p>
+
+    <h4>Aperçu du prototype papier</h4>
+    <img class="card-img-top"
+         src="assets/img/protoPapier.jpg"
+         alt="Prototype papier – L’Influence" />
+
+    <h4>Conclusion</h4>
+    <p>
+        <strong>L’Influence</strong> est un projet structurant dans mon parcours de game designer.
+        Il m’a permis de penser le jeu comme un ensemble de systèmes interconnectés,
+        de questionner la place du joueur, et de concevoir une expérience
+        où le sens émerge des interactions plutôt que d’un script imposé.
+    </p>
+
+</div>
+
                 </div>
             </div>
         </div>
@@ -676,38 +923,131 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body text-break text-start">
-                        <h3>Blockout : Contrast</h3>
 
+    <h3>Blockout – Contrast</h3>
 
-                        <h4>Objectif du projet</h4>
-                        <p>Faire un blockout sur le théme du contraste</p>
-                        <ul>
-                            
-                        </ul>
+    <h4>Contexte du projet</h4>
+    <p>
+        <strong>Blockout – Contrast</strong> est un exercice de <strong>Level Design</strong> réalisé dans Unreal Engine,
+        dans le cadre d’un projet scolaire. L’objectif était de concevoir un niveau de type 
+        <strong>walking simulator</strong> jouable, en se limitant volontairement à un blockout 
+        (primitives, couleurs unies, sans assets visuels).
+    </p>
 
-                        <h4>Consignes du projet</h4>
-                        <ul>
-                            
-                        </ul>
-                        <p>J'ai eu de la chance sur ce projet, car j'avais déjà développé mon système de
-                            dialogue dans le projet précédent. J'ai donc pu passer mon temps à l'améliorer
-                            au maximum.</p>
+    <h4>Objectif de design</h4>
+    <p>
+        L’objectif principal du projet était d’explorer comment le <strong>contraste</strong> peut guider le joueur et 
+        structurer son expérience, uniquement à travers la <strong>forme</strong>, la <strong>couleur</strong> et la 
+        <strong>composition de l’espace</strong>.
+    </p>
 
+    <p>
+        Le niveau devait proposer une expérience courte et contemplative, en mettant l’accent sur la lisibilité, 
+        la navigation et les émotions ressenties par le joueur, sans recourir à des éléments narratifs explicites 
+        ni à des assets détaillés.
+    </p>
 
-                        <h4>Doc technique : </h4>
-                        <p><a href="assets\doc\Doc Behavior Tree Aymeric Moreau.zip" download>Télécharger
-                                le document</a>
-                        </p>
-                        <h4>Aperçu Video du projet :</h4>
-                        <video src="assets\vid\BehaviorTreeVid.mp4" width="800" height="500" controls loop muted
-                            playsinline>
-                        </video>
-                        <h4>Mon Behavior tree</h4>
-                        <img src="assets/img/behaviorTree.png" width="800" height="500" alt="Behavior tree">
-                        <h4>Conclusion</h4>
-                        
+    <h4>Intentions artistiques et références</h4>
+    <p>
+        Un travail de recherche et de brainstorming a été réalisé en amont afin de définir les intentions visuelles 
+        et émotionnelles du niveau.  
+        Pour le traitement du contraste, je me suis inspiré du manga <em>Blue Period</em>, notamment pour ses ambiances 
+        urbaines froides et bleutées. Les <em>wow moments</em> s’inspirent quant à eux de <em>Girls’ Last Tour</em>, 
+        pour leur manière de révéler progressivement l’immensité des espaces.
+    </p>
 
-                    </div>
+    <p>
+        Le niveau prend place dans une <strong>gigapole abandonnée</strong>, composée de vastes volumes artificiels 
+        et industriels, plongés dans des teintes froides. Ce décor sert de toile de fond à un contraste fort avec 
+        les rares zones habitées par l’humain.
+    </p>
+
+    <h4>Utilisation du contraste</h4>
+    <p>
+        Le contraste est exploité à plusieurs niveaux :
+    </p>
+    <ul>
+        <li>Vie / mort</li>
+        <li>Couleurs froides / couleurs chaudes</li>
+        <li>Industriel / naturel</li>
+        <li>Formes rigides et symétriques / formes organiques et asymétriques</li>
+    </ul>
+
+    <p>
+        La ville abandonnée est construite à partir de volumes carrés, massifs et symétriques, renforçant son aspect 
+        artificiel et inhumain. À l’inverse, les éléments liés au camp de survivants utilisent des formes plus rondes 
+        et irrégulières, traduisant une présence humaine et vivante.
+    </p>
+
+    <h4>Navigation et guidage du joueur</h4>
+    <p>
+        Le joueur débute l’expérience désorienté au sein de la gigapole et doit retrouver le camp de survivants.  
+        Pour l’aider à se repérer, des éléments laissés par le camp sont disséminés dans l’environnement :
+    </p>
+    <ul>
+        <li>Feux de camp visibles à distance</li>
+        <li>Structures en bois servant de repères visuels</li>
+        <li>Contrastes de couleurs guidant naturellement la progression</li>
+    </ul>
+
+    <p>
+        Ces éléments remplissent à la fois un rôle de <strong>guidage</strong>, de <strong>navigation</strong> et de 
+        <strong>narration environnementale</strong>.
+    </p>
+
+    <h4>Structure et wow moments</h4>
+    <p>
+        L’expérience est rythmée par trois <em>wow moments</em> majeurs :
+    </p>
+    <ul>
+        <li>
+            La révélation de l’immensité du lieu, lorsque le joueur débouche sur une ville gigantesque au plafond très 
+            élevé, recouvert d’étoiles.
+        </li>
+        <li>
+            La découverte du camp de survivants, dont l’atmosphère chaleureuse et organique contraste fortement avec 
+            la froideur de la ville.
+        </li>
+        <li>
+            La révélation d’une structure verticale sur plusieurs étages, suggérant que l’espace exploré n’était 
+            qu’une fraction du monde réel.
+        </li>
+    </ul>
+
+    <h4>Ambiance et expérience joueur</h4>
+    <p>
+        L’ambiance générale cherche à provoquer un sentiment de <strong>vide apaisant</strong>, mêlant solitude, 
+        contemplation et calme. L’objectif est de laisser au joueur le temps d’observer, de ressentir l’espace 
+        et d’interpréter lui-même le monde qui l’entoure.
+    </p>
+
+    <h4>Document d’intention</h4>
+    <p>
+        <a href="assets/doc/Blockout_Contrast_Intentions.zip" download>
+            Télécharger le document d’intention
+        </a>
+    </p>
+
+    <h4>Aperçu vidéo du projet</h4>
+    <video src="assets/vid/Blockout_Contrast.mp4"
+           width="800"
+           height="500"
+           controls
+           loop
+           muted
+           playsinline>
+    </video>
+
+    <h4>Conclusion</h4>
+    <p>
+        Ce projet m’a permis de renforcer ma compréhension du <strong>Level Design</strong> à travers le blockout, 
+        notamment sur les notions de contraste, de composition, de framing et de guidage du joueur.  
+        Il m’a également appris à transmettre une intention claire et une expérience émotionnelle forte, 
+        même avec des moyens visuels très limités.
+    </p>
+
+</div>
+
                 </div>
             </div>
         </div>
@@ -722,57 +1062,69 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body text-break text-start">
-                        <h3>Ascension</h3>
 
+    <h3>Ascension</h3>
 
-                        <h4>Objectif du projet</h4>
-                        <p>Ce projet a pour but de nous faire découvire le game desing en créant en groupe a la main en autonomie un jeu de société.</p>
-                        <ul>
-                            <li>Création d'un personnage jouable pouvant se déplacer librement dans un
-                                environnement.</li>
-                            <li>Utilisation de classes ou structures pour gérer les équations mathématiques.
-                            </li>
-                            <li>Mise en place d'un protagoniste non-joueur (PNJ) qui interagit avec le
-                                joueur à des moments précis.</li>
-                            <li>Développement d'un système de réponse permettant au joueur de saisir une
-                                solution.</li>
-                            <li>Ajout d'une rétroaction pour indiquer si la réponse du joueur est correcte
-                                ou incorrecte.</li>
-                        </ul>
+    <h4>Contexte du projet</h4>
+    <p>
+        <strong>Ascension</strong> est un jeu de société coopératif réalisé dans le cadre de notre tout premier examen de 
+        <strong>Game Design</strong>. Il s’agit également de notre premier projet de groupe, conçu entièrement à la main 
+        et en autonomie.
+    </p>
 
-                        <h4>Consignes du projet</h4>
-                        <ul>
-                            <li>Le joueur doit pouvoir <strong>se déplacer librement</strong> dans
-                                l'environnement.</li>
-                            <li>Le jeu doit inclure une <strong>classe ou structure</strong> contenant une
-                                équation mathématique à résoudre.</li>
-                            <li>Un <strong>protagoniste non-joueur (PNJ)</strong> doit être présent et
-                                interagir avec le joueur aux moments opportuns.</li>
-                            <li>Le joueur doit pouvoir <strong>saisir une réponse</strong> à l'équation
-                                proposée.</li>
-                            <li>Une <strong>rétroaction</strong> doit être affichée pour indiquer si la
-                                réponse est correcte ou incorrecte.</li>
-                        </ul>
-                        <p>J'ai eu de la chance sur ce projet, car j'avais déjà développé mon système de
-                            dialogue dans le projet précédent. J'ai donc pu passer mon temps à l'améliorer
-                            au maximum.</p>
+    <ul>
+        <li>Premier projet de Game Design évalué</li>
+        <li>Premier travail de groupe en Game Design</li>
+        <li>Premier jeu de société conçu</li>
+        <li>Projet soumis à des contraintes de design imposées</li>
+    </ul>
 
+    <h4>Objectif du projet</h4>
+    <p>
+        L’objectif principal était de découvrir les bases du <strong>Game Design</strong> à travers la conception complète 
+        d’un jeu de société, en respectant des contraintes précises.  
+        Notre groupe a fait le choix de concevoir un <strong>jeu coopératif</strong>, mettant l’accent sur la communication, 
+        la coordination et la gestion du risque entre les joueurs.
+    </p>
 
-                        <h4>Doc technique : </h4>
-                        <p><a href="assets\doc\Doc Behavior Tree Aymeric Moreau.zip" download>Télécharger
-                                le document</a>
-                        </p>
-                        <h4>Aperçu Video du projet :</h4>
-                        <video src="assets\vid\BehaviorTreeVid.mp4" width="800" height="500" controls loop muted
-                            playsinline>
-                        </video>
-                        <h4>Mon Behavior tree</h4>
-                        <img src="assets/img/behaviorTree.png" width="800" height="500" alt="Behavior tree">
-                        <h4>Conclusion</h4>
-                        <p>Je suis content des améliorations que j'ai pu apporter à mon système de dialogue.
-                            Je pense avoir parfaitement fait ce qui m'a été demandé.</p>
+    <h4>Concept et inspirations</h4>
+    <p>
+        Le projet s’inspire de jeux tels que <em>Chained Together</em>, <em>Peak</em> et <em>Mille Bornes</em>.  
+        <strong>Ascension</strong> oppose plusieurs équipes de deux joueurs, en compétition les unes contre les autres, 
+        dont l’objectif est de gravir une montagne tout en restant physiquement reliés à leur partenaire.
+    </p>
 
-                    </div>
+    <p>
+        La progression se fait à l’aide de cartes, sur un principe proche de <em>Mille Bornes</em>.  
+        Les joueurs avancent sur un plateau composé de cases pouvant déclencher des effets positifs ou négatifs.
+    </p>
+
+    <p>
+        Les joueurs disposent également d’objets leur permettant :
+    </p>
+    <ul>
+        <li>de contrer certains effets de cases</li>
+        <li>d’handicaper temporairement une équipe adverse</li>
+        <li>d’accélérer leur propre progression</li>
+    </ul>
+
+    <h4>Livrable – Règles du jeu</h4>
+    <p>
+        <a href="assets/doc/L’ascension.pdf" download>
+            Télécharger le document des règles
+        </a>
+    </p>
+
+    <h4>Apprentissages et conclusion</h4>
+    <p>
+        Ce projet a été extrêmement formateur. Il nous a permis de comprendre l’importance des tests, de l’itération et 
+        de l’équilibrage dans le processus de Game Design.  
+        Les nombreuses erreurs commises au cours du développement nous ont aidés à améliorer le jeu et à mieux saisir 
+        les enjeux de la conception ludique en groupe.
+    </p>
+
+</div>
+
                 </div>
             </div>
         </div>
