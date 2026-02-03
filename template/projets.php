@@ -441,36 +441,127 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body text-break text-start">
-                        <h3>Tower Of Baël</h3>
+
+    <h3>Tower of Baël</h3>
+
+    <p>
+        <strong>Tower of Baël</strong> est un jeu développé sur <strong>Unity</strong> en duo,
+        sur une durée de deux semaines.
+        Il s’agit d’un <strong>roguelike top-down twin-stick shooter</strong>,
+        directement inspiré de <em>The Binding of Isaac</em>.
+    </p>
+
+    <h4>Objectif du projet</h4>
+    <p>
+        L’objectif du projet était double :
+        permettre à mon collègue <strong>Houcine</strong> de réaliser son premier jeu complet,
+        et me permettre de faire mes <strong>débuts en génération procédurale</strong>
+        dans un contexte de production cadré.
+    </p>
+
+    <h4>Concept du jeu</h4>
+    <p>
+        Le joueur incarne un aventurier peu héroïque qui pénètre dans la tour de Baël
+        afin d’en atteindre le sommet et d’affronter le boss final.
+        Chaque partie propose une exploration différente grâce à la génération procédurale
+        des salles.
+    </p>
+
+    <p>
+        Le gameplay repose sur des déplacements et des tirs dans huit directions,
+        avec des variations possibles via des objets modifiant les attaques,
+        comme le <em>Trap Beam</em>, inspiré du Brimstone.
+    </p>
+
+    <h4>Rôle et contributions personnelles</h4>
+    <p>
+        Sur ce projet, j’ai principalement travaillé sur :
+    </p>
+    <ul>
+        <li>la génération procédurale des niveaux</li>
+        <li>la logique environnementale et la caméra</li>
+        <li>la conception et l’implémentation d’ennemis avancés</li>
+        <li>la mise en place de comportements simples d’IA</li>
+    </ul>
+
+    <p>
+        Houcine était principalement en charge du gameplay du joueur,
+        des systèmes de combat, de l’interface utilisateur
+        ainsi que de l’ensemble des assets et animations.
+    </p>
+
+    <h4>Génération procédurale</h4>
+    <p>
+        Compte tenu du temps limité, j’ai mis en place une
+        <strong>Path-based Procedural Generation simplifiée</strong>.
+        Le niveau repose sur une grille logique stockée dans un tableau à deux dimensions,
+        composée d’objets <code>Room</code>.
+    </p>
+
+    <p>
+        La génération suit les étapes suivantes :
+    </p>
+    <ul>
+        <li>Placement de la salle de spawn au centre de la carte</li>
+        <li>Placement aléatoire de la salle de boss sur le bord de la map</li>
+        <li>Création d’un chemin principal de salles de combat entre les deux</li>
+        <li>Ajout de salles secondaires (objets, combats) à proximité</li>
+        <li>Instanciation des prefabs et génération des portes selon les connexions</li>
+    </ul>
+
+    <p>
+        Cette approche permet de garantir une progression cohérente
+        tout en conservant une forte variabilité entre les parties.
+    </p>
+
+    <h4>Level Design</h4>
+    <p>
+        Le level design repose sur une structure en salles adjacentes,
+        favorisant un sentiment d’exploration labyrinthique.
+        Certaines portes peuvent être bloquées afin de contrôler
+        les chemins possibles et le rythme de progression.
+    </p>
+
+    <p>
+        Plusieurs types de salles sont générés :
+        salles de combat, salles d’objets, salle de boss et salle de départ,
+        chacune étant identifiable visuellement par un code couleur.
+    </p>
+
+    <h4>Ce que ce projet démontre</h4>
+    <ul>
+        <li>Capacité à concevoir et implémenter une génération procédurale</li>
+        <li>Compréhension des contraintes de production en temps limité</li>
+        <li>Travail en duo avec une répartition claire des rôles</li>
+        <li>Création d’une structure de jeu scalable et rejouable</li>
+        <li>Capacité à mener un projet fonctionnel jusqu’au bout</li>
+    </ul>
+<h4>Lien du projet</h4>
+    <p>
+        <a href="https://houcine-hachemaoui.itch.io/tower-of-bael" target="_blank">
+            Voir le projet sur itch.io
+        </a>
+    </p>
+
+    <h4>Lien du code source du projet</h4>
+    <p>
+        <a href="https://github.com/Aymeric-Moreau/TowerOfBael" target="_blank">
+            Voir le projet sur Github
+        </a>
+    </p>
 
 
-                        <h4>Objectif du projet</h4>
-                        <p>Dévlopper un jeu en duo</p>
-                        <ul>
-                            
-                        </ul>
+    <h4>Conclusion</h4>
+    <p>
+        <strong>Tower of Baël</strong> marque une étape importante dans mon apprentissage.
+Ce projet m’a permis d’expérimenter la génération procédurale,
+de mieux comprendre la structure d’un roguelike
+et de confronter mes choix techniques à un jeu réellement jouable.
 
-                        <h4>Consignes du projet</h4>
-                        <ul>
-                            
-                        </ul>
-                        
+    </p>
 
+</div>
 
-                        <h4>Doc technique : </h4>
-                        <p><a href="assets\doc\Doc Behavior Tree Aymeric Moreau.zip" download>Télécharger
-                                le document</a>
-                        </p>
-                        <h4>Aperçu Video du projet :</h4>
-                        <video src="assets\vid\BehaviorTreeVid.mp4" width="800" height="500" controls loop muted
-                            playsinline>
-                        </video>
-                        <h4>Mon Behavior tree</h4>
-                        <img src="assets/img/behaviorTree.png" width="800" height="500" alt="Behavior tree">
-                        <h4>Conclusion</h4>
-                        
-
-                    </div>
                 </div>
             </div>
         </div>
