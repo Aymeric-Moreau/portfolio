@@ -967,38 +967,72 @@ le joueur grâce à la mort.
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body text-break text-start">
-                        <h3>Projet Luna</h3>
+    <h3>Projet Luna</h3>
+
+    <h4>Objectif du projet</h4>
+    <p>
+        Concevoir et présenter un concept de jeu original lors des sélections du
+        <strong>Gamagora Game Show</strong>, en mettant l’accent sur la narration,
+        l’intention de design et la cohérence du concept.
+    </p>
+
+    <h4>Pitch</h4>
+    <p>
+        Après une discussion avec sa mère autour d’un vieil album photo,
+        Luna fait un rêve inspiré de son enfance marquée par la guerre.
+        Accompagnée de son chien, <strong>Capitaine Babine</strong>, elle explore
+        un monde de jouets et de souvenirs déformés pour sauver la mère enfant
+        et comprendre son passé.
+    </p>
+
+    <h4>Concept de jeu</h4>
+    <p>
+        <strong>Projet Luna</strong> est un jeu d’<strong>infiltration coopératif asymétrique en 3D</strong>,
+        centré sur l’observation, la discrétion et la coopération.
+        La guerre n’est jamais montrée directement, mais suggérée par la
+        symbolique, la tension et l’environnement.
+    </p>
+
+    <h4>Intentions</h4>
+    <ul>
+        <li>Aborder la guerre par l’imaginaire et la métaphore</li>
+        <li>Créer de la tension sans combat</li>
+        <li>Raconter une relation mère-fille à travers le gameplay</li>
+        <li>Faire ressentir l’oppression et la fragilité du monde</li>
+    </ul>
+
+    <h4>Gameplay</h4>
+    <ul>
+        <li>Infiltration et gestion du bruit / visibilité</li>
+        <li>Énigmes environnementales coopératives</li>
+        <li>Complémentarité des personnages</li>
+    </ul>
+
+    <p>
+        <strong>Luna</strong> est orientée infiltration et interactions précises,
+        tandis que <strong>Capitaine Babine</strong> crée des diversions et ouvre
+        des chemins alternatifs.
+    </p>
+
+    <h4>Rôle et apprentissages</h4>
+    <p>
+        J’ai conçu le concept du jeu et rédigé le <strong>Game Design Document</strong>.
+        Le projet m’a permis de travailler le lead design, la communication d’un concept
+        et l’intégration des retours.
+        <br>
+        <strong>Projet Luna</strong> a été sélectionné jusqu’au dernier tour du
+        Gamagora Game Show.
+    </p>
+
+    <h4>GDD</h4>
+    <p>
+        <a href="https://docs.google.com/document/d/1hTR0cKuSjYez8XM8GrBcMxTAE1vSrujJVYbJxjuxkvY/edit?usp=sharing" target="_blank">
+            Consulter le Game Design Document
+        </a>
+    </p>
+</div>
 
 
-                        <h4>Objectif du projet</h4>
-                        <p>Proposer un jeu pour le GGS</p>
-                        <ul>
-                            
-                        </ul>
-
-                        <h4>Consignes du projet</h4>
-                        <ul>
-                            
-                        </ul>
-                        <p>J'ai eu de la chance sur ce projet, car j'avais déjà développé mon système de
-                            dialogue dans le projet précédent. J'ai donc pu passer mon temps à l'améliorer
-                            au maximum.</p>
-
-
-                        <h4>Doc technique : </h4>
-                        <p><a href="assets\doc\Doc Behavior Tree Aymeric Moreau.zip" download>Télécharger
-                                le document</a>
-                        </p>
-                        <h4>Aperçu Video du projet :</h4>
-                        <video src="assets\vid\BehaviorTreeVid.mp4" width="800" height="500" controls loop muted
-                            playsinline>
-                        </video>
-                        <h4>Mon Behavior tree</h4>
-                        <img src="assets/img/behaviorTree.png" width="800" height="500" alt="Behavior tree">
-                        <h4>Conclusion</h4>
-                        
-
-                    </div>
                 </div>
             </div>
         </div>

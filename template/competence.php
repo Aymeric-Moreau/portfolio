@@ -55,7 +55,7 @@
                         <div class="card-body">
                             <img src="assets/img/c++.png" alt=" logo du language c++ " />
                             <h5 class="card-title">C++</h5>
-                            <h6 class="card-subtitle mb-2">Technologies Utilisées : Raylib, Unreal engine</h6>
+                            <h6 class="card-subtitle mb-2">Technologies Utilisées : Raylib, Unreal engine, Very Sleapy (profileur)</h6>
                             <p class="card-text" title=" d'abord en pure c++ puis UE">Niveau : En cours d'auto-apprentissage</p>
                         </div>
                     </div>
