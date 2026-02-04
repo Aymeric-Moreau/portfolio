@@ -1286,16 +1286,38 @@ le joueur grâce à la mort.
                         <p>1 - Si une case désactivée possède exactement 3 voisines activées, elle devient activée.</p>
                         <p>2 - Si une case activée ne possède pas 2 ou 3 voisines activées, elle se désactive.</p>
 
-                        <p>Cette première version (V1) du projet propose une grille de taille moyenne sans possibilité
+                        <p>La première version (V1) du projet proposait une grille de taille moyenne sans possibilité
                             de déplacement. Avec un clic de souris, on peut activer des cases. Les règles s’appliquent
                             automatiquement toutes les secondes, mais on peut les interrompre grâce au bouton [S]. Je
                             l’ai développée en me concentrant uniquement sur les fonctionnalités, sans me préoccuper de
                             l’optimisation.</p>
 
+                            <p>
+Dans la deuxième version du projet, je me suis concentré sur l’optimisation des performances en découvrant l’utilisation d’un profileur externe nommé <i>Very Sleepy</i>.
+Grâce à cet outil, j’ai pu identifier la cause de ralentissements visibles lors du déplacement dans la grille.
 
-                        <p>Une version 2 (V2) est prévue, avec une grille plus grande, la possibilité de se déplacer à
-                            l’intérieur et de nombreuses optimisations afin de supporter une grille beaucoup plus vaste
-                            sans perte de fluidité.</p>
+Le problème provenait d’une erreur de conception dans la fonction chargée de parcourir l’ensemble des cases afin de déterminer leur état en fonction de leurs voisins.
+J’y instanciais plusieurs variables locales à chaque itération, ce qui entraînait des réallocations inutiles.
+Bien que je savais que ce n’était pas une bonne pratique, je n’avais pas conscience de l’impact réel que cela pouvait avoir sur les performances.
+Une fois cette erreur corrigée, les ralentissements ont disparu.
+
+J’ai ensuite augmenté la taille globale de la grille dans le but d’optimiser progressivement le système à mesure que de nouveaux ralentissements apparaissaient, afin d’atteindre la plus grande taille de grille possible.
+Après avoir doublé la taille de la grille, un nouveau problème de performance est apparu.
+L’analyse a montré qu’il provenait principalement de l’utilisation répétée de la méthode <code>find</code> sur une <code>std::map</code> pour rechercher les voisins de chaque case.
+
+Cela m’a amené à me documenter sur les structures de données afin de comprendre pourquoi la <code>map</code> ne correspondait pas à mon besoin et par quoi la remplacer.
+La prochaine étape consiste à remplacer cette structure par un tableau statique.
+En effet, une <code>std::map</code> est implémentée comme un arbre binaire équilibré, ce qui implique une complexité en <code>O(log n)</code> pour les recherches, alors qu’un tableau permet un accès direct en <code>O(1)</code> via un index.
+J’ai également choisi un tableau statique plutôt qu’un <code>std::vector</code>, la taille de la grille étant fixe pour le moment.
+</p>
+
+<p>
+Après avoir augmenté autant que possible la taille de la grille, je prévois d’explorer un système de chargement et de déchargement dynamique des cases, afin de n’effectuer les vérifications seulement sur les cases réellement nécessaires.
+</p>
+
+
+
+                        
                         <h4>Vidéo de démonstration</h4>
                         <div class="ratio ratio-16x9">
                             <video src="assets/vid/JeuDeLaVieDemonstration.mp4" controls loop playsinline></video>
