@@ -7,7 +7,8 @@
     <div class=""> <!-- text-center -->
 
         <div class="container text-center">
-            <div data-masonry='{"percentPosition": true }'>
+            <!-- data-masonry='{"percentPosition": true }' -->
+            <div class="masonry-grid">
 
              <!-- Blockout 1 alexi -->
                 <div class="masonry-item  mb-4">

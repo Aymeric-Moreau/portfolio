@@ -44,3 +44,13 @@
   max-height: 80px;
   object-fit: contain;
 }
+
+/* FORÇAGE COULEUR TEXTE – CARDS VITRINE (SAUF BADGES) */
+.vitrine .card,
+.vitrine .card *:not(.badge, .neo-card__button) {
+    color: var(--text) !important;
+}
+/* SVG (logos Raylib, C++, etc.) */ 
+.vitrine .card svg {
+   fill: var(--text) !important; 
+  }

@@ -1,5 +1,5 @@
 <header>
-  <nav class="navbar navbar-expand-lg fixed-top bg-body">
+  <nav class="navbar navbar-expand-lg fixed-top ">
     <div class="container">
 
       <!-- Logo -->

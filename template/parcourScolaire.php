@@ -2,8 +2,8 @@
     <div class="parcours" id="parcours">
         <br>
         <h2 class="text-center">Mon Parcours Scolaire</h2>
-
-                <div class="container flex-center">
+ <!-- flex-center -->
+                <div class="container ">
     <div class="row">
         <div class="col-md-12">
             <div class="card mb-3 shadow-sm">
@@ -47,7 +47,7 @@
     </div>
 </div>
 
-        <div class="container flex-center">
+        <div class="container ">
             <div class="row">
                 <div class="col-md-12">
                     <div class="card mb-3 shadow-sm">
@@ -88,7 +88,7 @@
         </div>
 
 
-        <div class="container flex-center">
+        <div class="container ">
             <div class="row">
                 <div class="col-md-12">
                     <div class="card mb-3 shadow-sm">
@@ -127,7 +127,7 @@
             </div>
         </div>
 
-        <div class="container flex-center">
+        <div class="container ">
             <div class="row">
                 <div class="col-md-12">
                     <div class="card mb-3 shadow-sm">
