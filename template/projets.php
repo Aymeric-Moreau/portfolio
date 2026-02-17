@@ -922,14 +922,7 @@ le joueur grâce à la mort.
         <li>Réflexion sur la lisibilité, les limites et les erreurs de design</li>
     </ul>
 
-    <!-- <h4>Ce que ce projet démontre</h4>
-    <ul>
-        <li>Capacité à concevoir des systèmes complexes et cohérents</li>
-        <li>Compréhension des mécaniques émergentes</li>
-        <li>Réflexion sur les limites et contraintes du design</li>
-        <li>Approche théorique solide du game design</li>
-        <li>Utilisation du prototype papier comme outil de conception</li>
-    </ul> -->
+
 
     <h4>Documents de conception</h4>
     <p>
@@ -1155,14 +1148,16 @@ le joueur grâce à la mort.
     </p>
 
     <h4>Aperçu vidéo du projet</h4>
-    <video src="assets/vid/Blockout_Contrast.mp4"
-           width="800"
-           height="500"
-           controls
-           loop
-           muted
-           playsinline>
-    </video>
+<iframe
+    width="800"
+    height="500"
+    src="https://www.youtube.com/embed/pgm2_GX3cZE"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+</iframe>
+
 
     <h4>Conclusion</h4>
     <p>
@@ -1294,23 +1289,51 @@ le joueur grâce à la mort.
                             l’optimisation.</p>
 
                             <p>
-Dans la deuxième version du projet, je me suis concentré sur l’optimisation des performances en découvrant l’utilisation d’un profileur externe nommé <i>Very Sleepy</i>.
-Grâce à cet outil, j’ai pu identifier la cause de ralentissements visibles lors du déplacement dans la grille.
-
-Le problème provenait d’une erreur de conception dans la fonction chargée de parcourir l’ensemble des cases afin de déterminer leur état en fonction de leurs voisins.
-J’y instanciais plusieurs variables locales à chaque itération, ce qui entraînait des réallocations inutiles.
-Bien que je savais que ce n’était pas une bonne pratique, je n’avais pas conscience de l’impact réel que cela pouvait avoir sur les performances.
-Une fois cette erreur corrigée, les ralentissements ont disparu.
-
-J’ai ensuite augmenté la taille globale de la grille dans le but d’optimiser progressivement le système à mesure que de nouveaux ralentissements apparaissaient, afin d’atteindre la plus grande taille de grille possible.
-Après avoir doublé la taille de la grille, un nouveau problème de performance est apparu.
-L’analyse a montré qu’il provenait principalement de l’utilisation répétée de la méthode <code>find</code> sur une <code>std::map</code> pour rechercher les voisins de chaque case.
-
-Cela m’a amené à me documenter sur les structures de données afin de comprendre pourquoi la <code>map</code> ne correspondait pas à mon besoin et par quoi la remplacer.
-La prochaine étape consiste à remplacer cette structure par un tableau statique.
-En effet, une <code>std::map</code> est implémentée comme un arbre binaire équilibré, ce qui implique une complexité en <code>O(log n)</code> pour les recherches, alors qu’un tableau permet un accès direct en <code>O(1)</code> via un index.
-J’ai également choisi un tableau statique plutôt qu’un <code>std::vector</code>, la taille de la grille étant fixe pour le moment.
+Dans la deuxième version du projet, je me suis concentré sur
+<strong>l’optimisation des performances</strong> en découvrant l’utilisation
+d’un profileur externe : <i>Very Sleepy</i>.
+Cet outil m’a permis d’identifier l’origine de ralentissements visibles
+lors des déplacements dans la grille.
 </p>
+
+<p>
+Le problème venait d’une erreur de conception dans la fonction chargée
+d’analyser l’état des cases en fonction de leurs voisins.
+Plusieurs variables locales étaient instanciées à chaque itération,
+provoquant des réallocations inutiles.
+Bien que je savais que ce n’était pas une bonne pratique,
+je n’avais pas mesuré l’impact réel sur les performances.
+Une fois cette erreur corrigée, les ralentissements ont disparu.
+</p>
+
+<p>
+J’ai ensuite augmenté volontairement la taille de la grille afin de
+pousser le système dans ses limites et identifier de nouveaux
+goulots d’étranglement.
+Après avoir doublé sa taille, un nouveau problème de performance est apparu.
+</p>
+
+<p>
+L’analyse a montré que ce ralentissement provenait principalement de
+l’utilisation répétée de la méthode <code>find</code> sur une
+<code>std::map</code> pour rechercher les voisins de chaque case.
+</p>
+
+<p>
+Cela m’a conduit à me documenter sur les structures de données afin de
+mieux comprendre pourquoi la <code>std::map</code> n’était pas adaptée à ce cas
+et par quoi la remplacer.
+La solution retenue est l’utilisation d’un <strong>tableau statique</strong>.
+</p>
+
+<p>
+Une <code>std::map</code> repose sur un arbre binaire équilibré,
+ce qui implique une complexité en <code>O(log n)</code> pour les recherches,
+alors qu’un tableau permet un accès direct en <code>O(1)</code> via un index.
+Le choix d’un tableau statique plutôt qu’un <code>std::vector</code> s’explique
+par le fait que la taille de la grille est fixe pour le moment.
+</p>
+
 
 <p>
 Après avoir augmenté autant que possible la taille de la grille, je prévois d’explorer un système de chargement et de déchargement dynamique des cases, afin de n’effectuer les vérifications seulement sur les cases réellement nécessaires.
@@ -1452,9 +1475,15 @@ Après avoir augmenté autant que possible la taille de la grille, je prévois d
 
 
                         <h4>Vidéo de démonstration</h4>
-                        <div class="ratio ratio-16x9">
-                            <video src="assets/vid/Combatdlamort.mp4" controls loop playsinline></video>
-                        </div>
+                        <iframe
+    width="800"
+    height="500"
+    src="https://www.youtube.com/embed/wZJAucW7XmM"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+</iframe>
 
                         <h4>Conclusion</h4>
                         <p>Je suis plutôt fier de ce projet et de ce que nous avons réussi à accomplir à deux dans le
@@ -1590,12 +1619,17 @@ Après avoir augmenté autant que possible la taille de la grille, je prévois d
                         <h4>Lien de Téléchargement</h4>
                         <a href="https://github.com/Aymeric-Moreau/Projet-JV-UE-DEC-RechercheEnNature">GitHub</a>
                         <h4>Aperçu Video commenter du projet :</h4>
-                        <video src="assets\vid\PresentationNatureEtDecouverte.mp4" width="800" height="500" controls
-                            loop playsinline>
-                        </video>
+                        <iframe
+    width="800"
+    height="500"
+    src="https://www.youtube.com/embed/jK_TGSI-wgM"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+</iframe>
                         <h4>Connclusion</h4>
-                        <p>Je suis content de ce projet. Pour moi, le seul point que j'aurais pu améliorer,
-                            c'est la décoration de l'environnement et la qualité globale des graphismes.</p>
+                        <p>Je suis content de ce projet. Pour moi, il y aurait quelque point a retravailler comme la décoration de l'environnement et la qualité globale des graphismes, mais j'en suis quand même fière.</p>
                     </div>
                 </div>
             </div>
@@ -1835,8 +1869,16 @@ Après avoir augmenté autant que possible la taille de la grille, je prévois d
                                 target="_blank">Code source sur GitHub</a></p>
 
                         <h4>Vidéo de démonstration (avec les deux POV en simultané)</h4>
-                        <video src="assets/vid/CrusadersOrdeal.mp4" width="800" height="500" controls loop
-                            playsinline></video>
+                        <iframe
+    width="800"
+    height="500"
+    src="https://www.youtube.com/embed/5KDzMLeGSk0"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+</iframe>
+          
 
                         <h4>Conclusion</h4>
                         <p>Je suis plutôt satisfait de ce projet. Même si je n’ai pas eu le temps d’approfondir le fun
@@ -1913,8 +1955,15 @@ Après avoir augmenté autant que possible la taille de la grille, je prévois d
                             en va de même pour la taille et la couleur des ennemis.</p>
 
                         <h5>Extrait du gameplay</h5>
-                        <video src="assets\vid\DemonstrationTowerDefence.mp4" width="800" height="500" controls loop
-                            muted playsinline></video>
+                        <iframe
+    width="800"
+    height="500"
+    src="https://www.youtube.com/embed/fXXB5vEQ3RA"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+</iframe>
                         <p>Ce projet peut être divisé en deux parties : la construction des tours et
                             l'attaque des ennemis par ces tours.</p>
                         <p>Le joueur peut, en bas à gauche, sélectionner une tour, puis la poser sur une des
@@ -1986,8 +2035,16 @@ Après avoir augmenté autant que possible la taille de la grille, je prévois d
                         <a href="https://drive.google.com/drive/folders/1PNjiyI0-uTWaoDdgl431RygYDbEp9x8-?usp=sharing">Google
                             Drive</a>
                         <h4>Présentation vidéo du projet :</h4>
-                        <video src="assets\vid\Presentation ProjetCible.mp4" width="800" height="500" controls loop
-                            playsinline></video>
+                        <iframe
+    width="800"
+    height="500"
+    src="https://www.youtube.com/embed/UKuPEP6p2BU"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+</iframe>
+             
 
                         <h4>Conclusion :</h4>
                         <p>Je suis plutôt fier de moi pour ce projet, surtout au niveau de l'ambiance, même

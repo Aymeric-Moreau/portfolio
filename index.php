@@ -62,7 +62,7 @@
           <hr>
 
           <div class="card neo-card neo-card--interactive card-projet h-100"> <a data-bs-toggle="modal"
-              data-bs-target="#modal-Towerbael" class="text-decoration-none">
+              data-bs-target="#modal-JeuDeLaVie" class="text-decoration-none">
               <div class="card-head d-flex justify-content-between align-items-center mb-2"> <i
                   class="fa-solid fa-thumbtack"></i> <span class="badge badge-error">GameDev</span>
                 <h6 class="mb-0">Projet personnel</h6>

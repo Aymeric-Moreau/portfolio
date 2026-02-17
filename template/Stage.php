@@ -482,10 +482,18 @@
                 <section class="mb-4">
                     <h5 class="text-primary">Démonstration vidéo</h5>
                     <div class="ratio ratio-16x9">
-                        <video src="assets/vid/AvoidingSpace.mp4" width="800" height="500" controls loop muted
-                            playsinline></video>
-                            <a href="https://ouki13.itch.io/avoiding-space"><p>Lien Itch.io</p></a>
+                        <iframe
+    width="800"
+    height="500"
+    src="https://www.youtube.com/embed/yZeZy_R0UnE"  
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+</iframe>
+                            
                     </div>
+                    <a href="https://ouki13.itch.io/avoiding-space"><p>Lien Itch.io</p></a>
                 </section>
                 <!-- Travail -->
                 <section class="mb-4">
