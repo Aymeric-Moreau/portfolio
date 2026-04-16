@@ -10,6 +10,37 @@
             <!-- data-masonry='{"percentPosition": true }' -->
             <div class="masonry-grid">
 
+            <div class="masonry-item  mb-4">
+                    <div class="card neo-card neo-card--interactive card-projet">
+                        <a data-bs-toggle="modal" data-bs-target="#modal-Sawblade">
+                            <div class="card-head"><span class="badge badge-success">GD</span><span class="badge badge-error">GameDev</span>
+                                <h5>Projet personnel</h5>
+                            </div>
+                            <img class="card-img-top" src="assets/img/WIP.avif" alt="ESP : Duel En Ligne" />
+                            <div class="card-details">
+                                <p class="text-title">Dodge the Sawblade WIP</p>
+                                <p class="text-body"><i class="fab fa-unity fa-2x"></i></p>
+                            </div>
+                            <button class="neo-card__button">En savoir plus</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="masonry-item  mb-4">
+                    <div class="card neo-card neo-card--interactive card-projet">
+                        <a data-bs-toggle="modal" data-bs-target="#modal-Tomo">
+                            <div class="card-head"><span class="badge badge-success">GD</span><span class="badge badge-warning">LD</span>
+                                <h5>LP</h5>
+                            </div>
+                            <img class="card-img-top" src="assets/img/TomoTomo_Affiche_V1.png" alt="ESP : Duel En Ligne" />
+                            <div class="card-details">
+                                <p class="text-title">GGS : Tomo Tomo WIP</p>
+                                <p class="text-body"><i class="fab fa-unity fa-2x"></i></p>
+                            </div>
+                            <button class="neo-card__button">En savoir plus</button>
+                        </a>
+                    </div>
+                </div>
              <!-- Blockout 1 alexi -->
                 <div class="masonry-item  mb-4">
                     <div class="card neo-card neo-card--interactive card-projet">
@@ -212,7 +243,7 @@
                                 alt="Image d'un system de dialogue" />
                             <div class="card-details">
                                 <p class="text-title">Mini Projet : Behavior Tree</p>
-                                <p class="text-body"><span class="badge badge-error">GameDev</span>
+                                <p class="text-body">
                                     <i class="cib-unreal-engine icon icon-xxl"></i>
                                 </p>
                             </div>
@@ -424,12 +455,236 @@
                                     <i class="fa-brands fa-wordpress fa-2x"></i>
                                 </p>
                             </div>
-                            <button class="neo-card__button">En savoir plus</button>
+                            <button class="neo-card__button">En savoir plus</button> 
                         </a>
                     </div>
                 </div>
             </div>
+        </div> 
+
+                        <!-- Modal Tower Of Baël -->
+        <div class="modal fade" id="modal-Sawblade" tabindex="-1" aria-labelledby="modalSawblade"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="modalRechercheTitre">Dodge the Sawblade
+                        </h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                          <div class="modal-body text-start">
+
+        <!-- TITRE -->
+        <h3 class="mb-1">Dodge the Sawblade</h3>
+        <p class="text-muted mb-3"><em>Nom temporaire</em></p>
+
+        <!-- DESCRIPTION -->
+        <h5>Concept</h5>
+        <p>
+          Ce projet consiste à reprendre un jeu simple existant et à le recréer entièrement 
+          afin de proposer une version plus aboutie, avec des améliorations en termes de gameplay et de ressenti.
+        </p>
+
+        <p>
+          Le jeu d’origine, <strong>A Slight Chance of Sawblades</strong> (par 
+          <a href="https://store.steampowered.com/developer/chinykian" target="_blank">Chinykian</a>), 
+          propose un gameplay simple : dans une arène en vue de côté, le joueur doit esquiver un maximum de scies 
+          pendant un temps limité.
+        </p>
+
+        <p>
+          Une mécanique centrale permet de gagner du temps : en sautant par-dessus une scie et en retombant au sol, 
+          celle-ci est détruite et libère une pièce qui augmente le temps restant.
+        </p>
+
+        <!-- OBJECTIFS -->
+        <h5 class="mt-4">🎯 Objectifs du projet</h5>
+        <ul>
+          <li>Approfondir mes compétences en <strong>C++</strong> avec la bibliothèque <strong>Raylib</strong></li>
+          <li>Découvrir le <strong>pixel art</strong>, notamment l’animation</li>
+          <li>Améliorer / repenser le <strong>game feel</strong> sur un gameplay volontairement simple mais déja trés aboutie</li>
+          <li>Travailler le <strong>game design</strong> en améliorant un jeu existant sans le dénaturer</li>
+        </ul>
+
+        <!-- AVANCEMENT -->
+        <h5 class="mt-4"> Avancement</h5>
+        <p>
+          Actuellement, je travaille sur la mise en place de la logique de base du jeu.
+        </p>
+
+        <!-- LIEN -->
+        <h5 class="mt-4">Code source</h5>
+        <a href="https://github.com/Aymeric-Moreau/DodgesTheSawBlade" target="_blank">
+          Voir le projet sur GitHub
+        </a>
+
+      </div>
+                      </div>
+            </div>
         </div>
+
+
+                <!-- Modal Tomo Tomo -->
+        <div class="modal fade" id="modal-Tomo" tabindex="-1" aria-labelledby="modalTomo"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="modalRechercheTitre">Tomo Tomo
+                        </h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-break text-start">
+
+ <h3>Tomo Tomo</h3>
+
+  <!-- CONTEXTE -->
+  <h5>📌 Projet</h5>
+  <p>
+    <strong>Tomo Tomo</strong> est un projet réalisé dans le cadre du Gamagora Show, 
+    une production de 4 mois en équipe réunissant les trois spécialités : 
+    <strong>Développement</strong>, <strong>Infographie 3D</strong> et <strong>Game / Level Design</strong>.
+  </p>
+
+  <p>
+    Il s’agit d’un jeu de plateforme 3D rapide se déroulant dans un univers rétrofuturiste.
+  </p>
+
+  <!-- PITCH -->
+  <h5>Concept</h5>
+  <p>
+    Le joueur incarne <strong>Tomo</strong>, un petit robot ayant perdu ses capacités. 
+    Son objectif est d’atteindre la grande tour centrale en récupérant des batteries 
+    dispersées dans les niveaux afin de restaurer progressivement ses pouvoirs.
+  </p>
+
+  <!-- EQUIPE -->
+  <h5>Équipe</h5>
+  <p>
+    Le projet a été réalisé par une équipe de 15 personnes :
+  </p>
+  <ul>
+    <li>6 en développement</li>
+    <li>4 en 3D (I3D)</li>
+    <li>5 en Game / Level Design (dont moi)</li>
+  </ul>
+
+  <!-- ROLE -->
+  <h5>Mon rôle (Game / Level Design)</h5>
+  <p>
+    Nous avons conçu le <strong>Game Design Document (GDD)</strong> du jeu, en définissant :
+  </p>
+  <ul>
+    <li>Le <strong>moveset</strong> du joueur</li>
+    <li>Le <strong>lore</strong> et l’univers</li>
+    <li>Les <strong>features principales</strong></li>
+    <li>Les bases du <strong>level design</strong></li>
+    <li>Les élément de <strong></strong>game feels</strong></li>
+  </ul>
+<p>La majorité de la doc a vraiment été en groupe on l'a réflechie, conçu et écrit ensenble.</p>
+<p>Mais parmis tous ça par exmple je me suis occupé entiérement de la doc sur le Game feels.</p>
+
+<p>
+  Mon travail consistait à renforcer la <strong>lisibilité</strong> et la 
+  <strong>sensation de vitesse</strong> à travers des feedbacks visuels, sonores et caméra.
+</p>
+
+<!-- BOOST -->
+<h6 class="mt-3">Boost (vitesse)</h6>
+<ul>
+  <li>Augmentation du FOV pour accentuer la vitesse</li>
+  <li>Traînée de fumée étirée derrière le personnage</li>
+  <li>Oreilles de Tomo poussées vers l’arrière</li>
+  <li>Léger screen shake</li>
+</ul>
+<p>
+  Objectif : renforcer la sensation d’accélération et de rapidité.
+</p>
+
+<!-- SAUT -->
+<h6 class="mt-3">Saut</h6>
+<ul>
+  <li>Stretch vers le haut lors du décollage</li>
+  <li>Léger délai de la caméra</li>
+  <li>Effet de fumée orienté selon la direction du mouvement</li>
+</ul>
+<p>
+  Objectif : donner du poids au saut et améliorer la lisibilité du mouvement.
+</p>
+
+<!-- ATTERRISSAGE -->
+<h6 class="mt-3">Atterrissage</h6>
+<ul>
+  <li>Squash du personnage</li>
+  <li>Onde de choc proportionnelle à la hauteur de chute</li>
+</ul>
+<p>
+  Objectif : transmettre l’impact et renforcer la sensation de physique.
+</p>
+
+<!-- HOMING -->
+<h6 class="mt-3">Homing Attack</h6>
+<ul>
+  <li>Effet d’impulsion au déclenchement</li>
+  <li>Animation avec projection du corps vers l’avant</li>
+</ul>
+<p>
+  Objectif : rendre l’action claire, rapide et satisfaisante.
+</p>
+
+<!-- BELL JUMP -->
+<h6 class="mt-3">Bell Jump (chargé)</h6>
+<ul>
+  <li>Effet sonore et visuel de charge progressive</li>
+  <li>Signal clair lorsque la charge est maximale</li>
+  <li>Léger screen shake en cas de surcharge</li>
+  <li>Traînée lumineuse pendant le saut</li>
+</ul>
+<p>
+  Objectif : créer de la tension pendant la charge et une forte récompense à l’activation.
+</p>
+
+<p>Aprés tous cela il eu une grosse partie dédier évidemment au Level Design</p>
+
+<p>Nous somme partie sur 7 niveau semis ouvert distinct. Il était au départ prévue de faire une zone ouverte sans temp de chargement mais l'idée fut écarter pour faciliter l'optimisation du jeu.</p>
+<p>Nousa vons donc 7 niveau dispatcher entre les LD : </p>
+<p>Il y a le niveau tutoriel pour apprendre a utiliser les différente capacité.
+    un hub qui fais le lien entre les niveau c'est dailleur la qu'il y a la tour central a atteindre
+    Ensuite il y a 4 niveau dont un double qui sont chacun dédier a une feature/capacité
+    il y a : un niveau sur le wallrun, le rail ride , les ennemis et les barette de ram qui redonne du boost.
+    Toutes les feature sont utilise dans chaque niveau mais a moin de quantité que le niveau focus dessus.
+</p>
+<p>Mon niveau est celui qui est centrer sur les barrette de ram qui redonne du boost, c'est un niveau particulier par rapport au autre car il est en 2 partie un au sol et un au dessus des nuage</p>
+   
+<h4>Lien du projet</h4>
+    <p>
+        <a href="https://houcine-hachemaoui.itch.io/tower-of-bael" target="_blank">
+            Voir le projet sur itch.io
+        </a>
+    </p>
+
+    <h4>Lien du code source du projet</h4>
+    <p>
+        <a href="https://github.com/Aymeric-Moreau/TowerOfBael" target="_blank">
+            Voir le projet sur Github
+        </a>
+    </p>
+
+
+    <h4>Conclusion</h4>
+    <p>
+        <strong>Tower of Baël</strong> marque une étape importante dans mon apprentissage.
+Ce projet m’a permis d’expérimenter la génération procédurale,
+de mieux comprendre la structure d’un roguelike
+et de confronter mes choix techniques à un jeu réellement jouable.
+
+    </p>
+
+</div>
+                </div>
+            </div>
+        </div>
+
 
         <!-- Modal Tower Of Baël -->
         <div class="modal fade" id="modal-Towerbael" tabindex="-1" aria-labelledby="modalTowerbael"
@@ -1333,11 +1588,43 @@ alors qu’un tableau permet un accès direct en <code>O(1)</code> via un index.
 Le choix d’un tableau statique plutôt qu’un <code>std::vector</code> s’explique
 par le fait que la taille de la grille est fixe pour le moment.
 </p>
-
+<p>
+Après avoir remplacé la structure de données initiale et optimisé les accès mémoire, j’ai poursuivi les tests en augmentant progressivement la taille de la grille afin d’identifier de nouveaux goulots d’étranglement.
+</p>
 
 <p>
-Après avoir augmenté autant que possible la taille de la grille, je prévois d’explorer un système de chargement et de déchargement dynamique des cases, afin de n’effectuer les vérifications seulement sur les cases réellement nécessaires.
+En multipliant la taille de la grille par 4, un nouveau point critique est apparu : une structure utilisée pour stocker le nombre de voisins (<code>nouveauxNbrVoisins</code>) devenait à son tour trop coûteuse. J’ai donc appliqué le même raisonnement en réduisant les coûts d’accès et en évitant les opérations inutiles.
 </p>
+
+<p>
+J’ai également optimisé la fonction de récupération des voisins. Initialement, celle-ci allouait un <code>std::vector</code> à chaque appel, ce qui engendrait de nombreuses allocations dynamiques. J’ai remplacé cette approche par un <code>std::array</code>, instancié une seule fois et réutilisé, ce qui a permis de réduire significativement le coût en mémoire et en temps d’exécution.
+</p>
+
+<p>
+Avec une grille 8 fois plus grande, le programme restait fonctionnel mais atteignait environ 30 FPS (contre 60 FPS auparavant). À ce stade, il n’y avait plus de ralentissements majeurs, mais une perte de performance globale due au volume de calcul. L’analyse a montré que la fonction de vérification des voisins était devenue relativement stable (environ 0,08 ms), ce qui indiquait que le problème venait d’ailleurs.
+</p>
+
+<p>
+Le nouveau goulot d’étranglement provenait du rendu : toutes les cellules étaient dessinées à chaque frame, même celles hors caméra. Avec plusieurs millions de cellules, cela représentait un coût inutilement élevé.
+</p>
+
+<p>
+J’ai donc mis en place une optimisation du rendu en ne dessinant que les cellules visibles à l’écran (culling). Cette modification a permis de réduire drastiquement le nombre d’opérations graphiques.
+</p>
+
+<p>
+En augmentant encore la taille de la grille (×32), un nouveau problème est apparu : le nombre total de cellules à traiter devenait trop important pour la fonction de mise à jour (<code>VerifVoisin</code>). Pour résoudre cela, j’ai changé d’approche en limitant les calculs uniquement aux cellules actives et à leurs voisines directes, plutôt que de parcourir toute la grille.
+</p>
+
+<p>
+Cette optimisation marque un changement important : on passe d’une approche <strong>globale (toute la grille)</strong> à une approche <strong>locale (zones actives uniquement)</strong>, ce qui améliore fortement les performances sur de grandes grilles.
+</p>
+
+<p>
+Enfin, en poussant les tests jusqu’à une grille 256 fois plus grande, j’ai atteint une limite technique : la grille ne pouvait plus être stockée efficacement dans un tableau statique en mémoire.
+</p>
+
+
 
 
 
